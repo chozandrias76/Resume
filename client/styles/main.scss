@@ -1,6 +1,58 @@
-$background: lightblue;
+//colors
+$white: white;
+$color_tundora_approx: #444;
+$black_75: rgba(0, 0, 0, .75);
+$white_85: rgba(255, 255, 255, .85);
+
+//fonts
+$font_0: Helvetica;
+
+//urls
+$url_0: url(http://i.imgur.com/b8X243g.png);
 
 body {
-  background: $background;
-  font-family: "Helvetica Neue", serif;
+	min-height: 100%;
+	color: $white;
+	background: $url_0 center no-repeat;
+	background-size: cover;
+	background-color: $color_tundora_approx;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+html {
+	min-height: 100%;
+}
+#cover-image {
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	overflow: hidden;
+	display: inline-block;
+	margin: 2em;
+	&:hover #overlay {
+		opacity: 1;
+	}
+}
+#overlay {
+	background: $black_75;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	line-height: 300px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	opacity: 0;
+}
+span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: -50%;
+}
+#text-overlay {
+	font-family: $font_0;
+	font-weight: 900;
+	color: $white_85;
+	font-size: 24px;
 }
