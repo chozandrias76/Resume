@@ -5,7 +5,7 @@ var config = require('./webpack.config.base.js');
 
 if (process.env.NODE_ENV !== 'test') {
   config.entry = [
-    'webpack-dev-server/client?http://localhost:3000',
+    'webpack-dev-server/client?http://colin-resume.herokuapp.com:3000',
     'webpack/hot/dev-server'
   ].concat(config.entry);
 }
