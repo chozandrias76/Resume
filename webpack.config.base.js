@@ -25,7 +25,7 @@ module.exports = {
   output: {
     path: path.join(process.cwd(), '/client'),
     pathInfo: true,
-    publicPath: 'http://colin-resume.herokuapp.com/client/',
+    publicPath: 'localhost/client/',
     filename: 'main.js'
   },
 
