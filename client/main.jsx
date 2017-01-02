@@ -10,5 +10,5 @@ import Index from 'components/Index/Index';
 render(<Index items={[1,2,3]} />, document.getElementById('js-main'));
 render(
   <h1>Hello, world!</h1>,
-  document.getElementById('root')
+  document.getElementById('js-main')
 );
