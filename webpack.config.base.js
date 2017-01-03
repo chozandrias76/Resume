@@ -25,7 +25,7 @@ module.exports = {
   output: {
     path: path.join(process.cwd(), '/client'),
     pathInfo: true,
-    publicPath: 'localhost/client/',
+    publicPath: 'http://localhost:3000/client/',
     filename: 'main.js'
   },
 

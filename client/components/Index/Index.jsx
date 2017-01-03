@@ -5,7 +5,7 @@ class IndexComponent extends Component {
     return (
       <div>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="client/styles/main.css" />
+        <link rel="stylesheet" href="/client/styles/main.css" />
         <nav className="navbar navbar-inverse navbar-fixed-top">
           <div className="container-fluid">
             <div className="navbar-header">
@@ -73,12 +73,6 @@ class IndexComponent extends Component {
 
   }
 }
-
-var NewComponent = React.createClass({
-  render: function() {
-
-  }
-});
 
 IndexComponent.defaultProps = {
   items: []

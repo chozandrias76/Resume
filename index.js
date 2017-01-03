@@ -55,7 +55,7 @@ if (env.production === false) {
     stats: false,
     historyApiFallback: true,
     headers: {
-      'Access-Control-Allow-Origin': 'http://colin-resume.herokuapp.com:3001',
+      'Access-Control-Allow-Origin': 'http://localhost:3001',
       'Access-Control-Allow-Headers': 'X-Requested-With'
     }
   }).listen(3000, 'localhost', function (err) {
