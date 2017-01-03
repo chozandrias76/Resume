@@ -1,0 +1,100 @@
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #687A82;
+  font-family: 'Playfair Display', serif;
+  color: #B7D5E6;
+}
+
+#front {
+  height: 1088px;
+  overflow: hidden;
+  position: relative;
+}
+
+#content {
+  background-color: #687A82;
+}
+
+.layer {
+  background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1088x;
+  position: fixed;
+  z-index: -1;
+}
+
+#front-mobile {
+  display: none;
+  background:url("https://i.imgur.com/TE8Kdtn.png") no-repeat center bottom/cover;
+  height: 320px;
+}
+
+.first-section {
+  padding: 50px 0 20px 0;
+}
+
+p{
+	color: #B7D5E6;
+}
+
+.text-header {
+  font-size: 50px;
+  text-align: center;
+}
+
+h1 {
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #ede0d5;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+#front, .layer {
+  min-height: 1088px;
+}
+
+.layer-bg {
+  background-image: url("https://i.imgur.com/CVFdGa7.png");
+}
+
+.layer-1 {
+  background-image: url("https://i.imgur.com/l9y2PCn.png");
+}
+
+.layer-2 {
+  background-image: url("https://i.imgur.com/kygbXif.png");
+}
+
+.layer-3 {
+  background-image: url("https://i.imgur.com/p70GyCr.png");
+}
+
+.layer-overlay {
+  background-image: url("https://i.imgur.com/gOJMjAq.png");
+}
+
+@media only screen and (max-width: 768px) {
+  #front {
+    display: none;
+  }
+
+  #front-mobile {
+    display: block;
+  }
+}
+.tutorial-link {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.tutorial-link:hover {
+  color: #ede0d5;
+}

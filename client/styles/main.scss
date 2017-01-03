@@ -3,21 +3,31 @@ $white: white;
 $color_tundora_approx: #444;
 $black_75: rgba(0, 0, 0, .75);
 $white_85: rgba(255, 255, 255, .85);
+$color_pale_sky_approx: #687a82;
+$color_spindle_approx: #b7d5e6;
+$color_pearl_bush_approx: #ede0d5;
+$white: #fff;
 
 //fonts
 $font_0: Helvetica;
+$font_0: Playfair Display;
+$font_1: serif;
 
 //urls
 $url_0: url(http://i.imgur.com/b8X243g.png);
+$url_0: url(https://i.imgur.com/TE8Kdtn.png);
+$url_1: url(https://i.imgur.com/CVFdGa7.png);
+$url_2: url(https://i.imgur.com/l9y2PCn.png);
+$url_3: url(https://i.imgur.com/kygbXif.png);
+$url_4: url(https://i.imgur.com/p70GyCr.png);
+$url_5: url(https://i.imgur.com/gOJMjAq.png);
 
 body {
-	min-height: 100%;
-	color: $white;
-	background: $url_0 center no-repeat;
-	background-size: cover;
-	background-color: $color_tundora_approx;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	padding: 0;
+		margin: 0;
+		background-color: $color_pale_sky_approx;
+		font-family: $font_0, $font_1;
+		color: $color_spindle_approx;
 }
 html {
 	min-height: 100%;
@@ -55,4 +65,77 @@ span {
 	font-weight: 900;
 	color: $white_85;
 	font-size: 24px;
+}
+
+#front {
+	height: 1088px;
+	overflow: hidden;
+	position: relative;
+	min-height: 1088px;
+}
+#content {
+	background-color: $color_pale_sky_approx;
+}
+.layer {
+	background-position: bottom center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1088x;
+	position: fixed;
+	z-index: -1;
+	min-height: 1088px;
+}
+#front-mobile {
+	display: none;
+	background: $url_0 no-repeat center bottom/cover;
+	height: 320px;
+}
+.first-section {
+	padding: 50px 0 20px;
+}
+p {
+	color: $color_spindle_approx;
+	color: $color_pearl_bush_approx;
+	font-size: 18px;
+	line-height: 150%;
+}
+.text-header {
+	font-size: 50px;
+	text-align: center;
+}
+h1 {
+	line-height: 120%;
+	margin-bottom: 30px;
+}
+.layer-bg {
+	background-image: $url_1;
+}
+.layer-1 {
+	background-image: $url_2;
+}
+.layer-2 {
+	background-image: $url_3;
+}
+.layer-3 {
+	background-image: $url_4;
+}
+.layer-overlay {
+	background-image: $url_5;
+}
+@media only screen and(max-width: 768px) {
+	#front {
+		display: none;
+	}
+	#front-mobile {
+		display: block;
+	}
+}
+.tutorial-link {
+	color: $white;
+	font-size: 18px;
+	text-decoration: underline;
+	&:hover {
+		color: $color_pearl_bush_approx;
+	}
 }
