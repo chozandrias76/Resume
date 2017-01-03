@@ -2,7 +2,7 @@
 (function () {
     window.addEventListener('scroll', function (event) {
         var depth, i, layer, layers, len, movement, topDistance, translate3d;
-        topDistance = this.pageYOffset;
+        topDistance = this.pageYOffset - 10px;
         layers = document.querySelectorAll('[data-type=\'parallax\']');
         for (i = 0, len = layers.length; i < len; i++) {
 //             if (window.CP.shouldStopExecution(1)) {
@@ -20,7 +20,7 @@
         }
 //         window.CP.exitedLoop(1);
     });
-})();	
+})();
 // var url = 'http://i.imgur.com/CVFdGa7.png';
 // $.ajax({
 //   url: url,
