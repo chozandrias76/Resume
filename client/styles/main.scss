@@ -68,13 +68,15 @@ span {
 }
 
 #front {
-	//height: 800px;
 	overflow: hidden;
 	position: relative;
-	//min-height: 1088px;
+	margin-bottom: 0px;
 }
 #content {
 	background-color: #383737;
+}
+.navbar.navbar-inverse.navbar-static-top{
+	margin-bottom: 0px;
 }
 .layer {
 	background-position: bottom center;
