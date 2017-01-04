@@ -1,11 +1,18 @@
 import React, {Component} from 'react';
 
 (function () {
-  var front = document.getElementById("front");
-  front.style.height = window.outerHeight - 200;
-    window.addEventListener('resize', function(event) {
-      front.style.height = window.outerHeight - 200;
-    });
+  var front;
+  front = document.getElementById("front");
+  //front.style.height = window.outerHeight;
+
+  // try{
+  // front.style.height = window.outerHeight - 200;}
+  // catch (e){
+  //   console.log(e);
+  // }
+  //   window.addEventListener('resize', function(event) {
+  //     front.style.height = window.outerHeight - 200;
+  //   });
     window.addEventListener('scroll', function (event) {
         var depth, i, layer, layers, len, movement, topDistance, translate3d;
         topDistance = this.pageYOffset;
@@ -39,7 +46,9 @@ class IndexComponent extends Component {
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css"/> {/* Source Image  https://www.artstation.com/artwork/50JvP*/}
 
-        <div id="front">
+        <div id="front" style={{
+          height: 800
+        }}>
           <div crossOrigin className="layer-default layer" data-depth={0.0} data-type="parallax"><canvas/></div>
           <div crossOrigin className="layer-bg layer" data-depth="0.01" data-type="parallax"/>
           <div crossOrigin className="layer-1 layer" data-depth="0.1" data-type="parallax"/>
@@ -49,7 +58,7 @@ class IndexComponent extends Component {
         </div>
         <div id="front-mobile"/>
         <div id="content">
-        <nav className="navbar navbar-inverse navbar-static-top">
+        {/* <nav className="navbar navbar-inverse navbar-static-top">
         <div className="container-fluid">
           <div className="navbar-header">
             <a className="navbar-brand" href="#"><img src="https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/56cf7949555986536eb56dcd/1470171109698/?format=1000w" width={30} className="text-center" /></a>
@@ -59,7 +68,7 @@ class IndexComponent extends Component {
             <li><a href="#about-me">About</a></li>
           </ul>
         </div>
-      </nav>
+      </nav> */}
 
           <div className="container">
             <section className="first-section">
