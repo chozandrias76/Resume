@@ -32,10 +32,6 @@ const allImageObjects = [{
   name:"GRILL TEK"
 }];
 
-
-
-
-
 document.addEventListener('DOMContentLoaded', function(event) { //Run once the page is actually up
 
   render(<ImageAlbum imageObjects={allImageObjects} />,
