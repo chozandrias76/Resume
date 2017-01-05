@@ -1,3 +1,5 @@
+import React from 'react';
+
 function ImageObject(props){
   var divStyle = {
     backgroundImage: 'url(\'' + props.value.url + '\')'
@@ -25,5 +27,4 @@ function ImageAlbum(props) {
   );
 }
 
-// module.exports = Test;
 export default ImageAlbum;
