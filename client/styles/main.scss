@@ -32,7 +32,7 @@ body {
 html {
 	min-height: 100%;
 }
-#cover-image {
+.cover-image {
 	width: 300px;
 	height: 300px;
 	background-size: cover;
@@ -41,11 +41,11 @@ html {
 	overflow: hidden;
 	display: inline-block;
 	margin: 2em;
-	&:hover #overlay {
+	&:hover .overlay {
 		opacity: 1;
 	}
 }
-#overlay {
+.overlay {
 	background: $black_75;
 	text-align: center;
 	width: 300px;
@@ -60,7 +60,7 @@ span {
 	vertical-align: middle;
 	line-height: -50%;
 }
-#text-overlay {
+.text-overlay {
 	font-family: $font_0;
 	font-weight: 900;
 	color: $white_85;
@@ -70,7 +70,7 @@ span {
 #front {
 	overflow: hidden;
 	position: relative;
-	margin-bottom: 0px;
+	//margin-bottom: 0px;
 }
 #content {
 	background-color: #383737;

@@ -1,20 +1,85 @@
 import React, {Component} from 'react';
+import ImageThumbnail from 'components/ImageThumbnail';
+import {render} from 'react-dom';
 
+function ThumbnailObject(url, name) {
+  this.url = url;
+  this.name = name;
+};
+
+// var imageObjects = [
+//   new ImageObject("https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569708963b0be3f9ce875be0/1452738819808/Render+07.png?format=750w", "REGILO"),
+//   new ImageObject("https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569707b00e4c119a540baff5/1452738538984/Usability+Final.png?format=750w", "SAMXA'E"),
+//   new ImageObject("https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569706e4df40f306cad901e1/1452738288707/_MG_1197.jpg?format=750w", "HELLBOY PACKAGE DESIGN"),
+//   new ImageObject("https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569706384bf118ce98c78a8c/1452738156214/Cutaway.127.png?format=750w", "THE RO"),
+//   new ImageObject("https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/5760ee02e707eb1822a13d8b/1465970186124/20150519_203927.jpg?format=500w", "STEAMER REDESIGN"),
+//   new ImageObject("https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/5760e9d627d4bdcb665722d8/1465969229638/Camp+Stove+Redesign+04+Paint.png?format=750w", "GRILL TEK")
+// ];
+//var imageObjects = ["https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569708963b0be3f9ce875be0/1452738819808/Render+07.png?format=750w", "REGILO"]
+const allImageObjects = [{
+  url:"https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569708963b0be3f9ce875be0/1452738819808/Render+07.png?format=750w",
+  name:"REGILO"
+},
+{
+  url:"https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569707b00e4c119a540baff5/1452738538984/Usability+Final.png?format=750w",
+  name:"SAMXA'E"
+},
+{
+  url:"https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569706e4df40f306cad901e1/1452738288707/_MG_1197.jpg?format=750w",
+  name:"HELLBOY PACKAGE DESIGN"
+},
+{
+  url:"https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569706384bf118ce98c78a8c/1452738156214/Cutaway.127.png?format=750w",
+  name:"THE RO"
+},
+{
+  url:"https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/5760ee02e707eb1822a13d8b/1465970186124/20150519_203927.jpg?format=500w",
+  name:"STEAMER REDESIGN"
+},
+{
+  url:"https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/5760e9d627d4bdcb665722d8/1465969229638/Camp+Stove+Redesign+04+Paint.png?format=750w",
+  name:"GRILL TEK"
+}];
+// const listItems = imageObjects.map((imageObject) =>
+//   <li key={imageObject.name}>{imageObject.name}</li>
+// );
+
+function ImageObject(props){
+  var divStyle = {
+    backgroundImage: 'url(\'' + props.value.url + '\')'
+  };
+  return (
+        <div className= "cover-image" id={props.value.name} style={divStyle}>
+          <div className="overlay">
+            <span className="text-overlay">
+              {props.value.name}
+            </span>
+          </div>
+        </div>
+  );
+}
+
+function ImageAlbum(props) {
+  const imageObjects = props.imageObjects;
+  return (
+    <div>
+      {imageObjects.map((imageObject) =>
+                <ImageObject key={imageObject.name}
+                          value={imageObject} />
+    )}
+  </div>
+  );
+}
+
+//console.log(allImageObjects[0].url);
+document.addEventListener('DOMContentLoaded', function(event) { //Run once the page is actually up
+
+  render(<ImageAlbum imageObjects={allImageObjects} />,
+  document.getElementById('product-images')
+  );
+}, false);
 
 class IndexComponent extends Component {
-
-  // var imageObject = function imageObject(url, text){
-  //   return <div id="cover-image" style={{
-  //     backgroundImage: `url(${url})`
-  //   }}>
-  //     <div id="overlay">
-  //       <span id="text-overlay">${text}</span>
-  //     </div>
-  //   </div>;
-  // };
-  //
-  // var testImageObject = new imageObject("www.google.com", "fuck");
-  // console.log(testImageObject);
 
   render() {
     return (
@@ -26,69 +91,11 @@ class IndexComponent extends Component {
 
         <div id="content">
           <div className="container">
-            <section className="first-section">
-              <div className="row">
-                <div id="cover-image" style={{
-                  backgroundImage: 'url("https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569708963b0be3f9ce875be0/1452738819808/Render+07.png?format=750w")'
-                }}>
-                  <div id="overlay">
-                    <span id="text-overlay">REGILO</span>
-                  </div>
-                </div>
-                <div id="cover-image" style={{
-                  backgroundImage: 'url("https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569707b00e4c119a540baff5/1452738538984/Usability+Final.png?format=750w")'
-                }}>
-                  <div id="overlay">
-                    <span id="text-overlay">SAMXA'E</span>
-                  </div>
-                </div>
-                <div id="cover-image" style={{
-                  backgroundImage: 'url("https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569706e4df40f306cad901e1/1452738288707/_MG_1197.jpg?format=750w")'
-                }}>
-                  <div id="overlay">
-                    <span id="text-overlay">HELLBOY PACKAGE DESIGN</span>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div id="cover-image" style={{
-                  backgroundImage: 'url("https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569706384bf118ce98c78a8c/1452738156214/Cutaway.127.png?format=750w")'
-                }}>
-                  <div id="overlay">
-                    <span id="text-overlay">THE RO</span>
-                  </div>
-                </div>
-                <div id="cover-image" style={{
-                  backgroundImage: 'url("https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/5760ee02e707eb1822a13d8b/1465970186124/20150519_203927.jpg?format=500w")'
-                }}>
-                  <div id="overlay">
-                    <span id="text-overlay">STEAMER REDESIGN</span>
-                  </div>
-                </div>
-                <div id="cover-image" style={{
-                  backgroundImage: 'url("https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/5760e9d627d4bdcb665722d8/1465969229638/Camp+Stove+Redesign+04+Paint.png?format=750w")'
-                }}>
-                  <div id="overlay">
-                    <span id="text-overlay">GRILL TEK</span>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <section className="first-section" id="product-images"></section>
           </div>
         </div>
       </div>
     );
-    // return (
-    //   <section>
-    //     <h2>react-webpack-boilerplate</h2>
-    //     <ul ref="indexList" className="index-list">
-    //       {this.props.items.map((item, index) => {
-    //         return (<li key={index}>item {item}</li>);
-    //       })}
-    //     </ul>
-    //   </section>
-    // );
-
   }
 }
 
