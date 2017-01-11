@@ -1,0 +1,90 @@
+$url_g0: url(https://placehold.it/1000x600);
+$url_g1: url(http://i.imgur.com/qlK09NA.png);
+$image_initial_scale: 1;
+$image_max_scale: 2.0;
+.galleryActiveImage {
+    width: 1000px;
+    height: 600px;
+    background-size: cover;
+    background-image: $url_g0;
+    overflow: hidden;
+    display: inline-block;
+    margin: 2em;
+}
+
+.fadeOutElem {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    opacity: 0.1;
+}
+
+.fadeInElem {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    opacity: 1;
+}
+
+.galleryListImage {
+    animation-timing-function: ease;
+    width: 100px;
+    height: 60px;
+    background-size: cover;
+    //background-image: $url_g1;
+    overflow: hidden;
+    display: inline-block;
+    margin: 2em;
+    &:hover {
+        animation-name: scale-double;
+        animation-duration: 1s;
+        transform: scale($image_initial_scale * $image_max_scale, $image_initial_scale * $image_max_scale);
+    }
+}
+
+.galleryWrapper {
+    font-size: 0;
+    text-align: center;
+}
+
+@keyframes scale-double {
+    0% {
+        -ms-transform: scale($image_initial_scale, $image_initial_scale);
+        /* IE 9 */
+        -webkit-transform: scale($image_initial_scale, $image_initial_scale);
+        /* Safari */
+        transform: scale($image_initial_scale, $image_initial_scale);
+    }
+    25% {
+        -ms-transform: scale($image_initial_scale * 1.25, $image_initial_scale * 1.25);
+        /* IE 9 */
+        -webkit-transform: scale($image_initial_scale * 1.25, $image_initial_scale * 1.25);
+        /* Safari */
+        transform: scale($image_initial_scale * 1.25, $image_initial_scale * 1.25);
+    }
+    50% {
+        -ms-transform: scale($image_initial_scale * 1.5, $image_initial_scale * 1.5);
+        /* IE 9 */
+        -webkit-transform: scale($image_initial_scale * 1.5, $image_initial_scale * 1.5);
+        /* Safari */
+        transform: scale($image_initial_scale * 1.5, $image_initial_scale * 1.5);
+    }
+    75% {
+        -ms-transform: scale($image_initial_scale * 1.75, $image_initial_scale * 1.75);
+        /* IE 9 */
+        -webkit-transform: scale($image_initial_scale * 1.75, $image_initial_scale * 1.75);
+        /* Safari */
+        transform: scale($image_initial_scale * 1.75, $image_initial_scale * 1.75);
+    }
+    100% {
+        -ms-transform: scale($image_initial_scale * $image_max_scale, $image_initial_scale * $image_max_scale);
+        /* IE 9 */
+        -webkit-transform: scale($image_initial_scale * $image_max_scale, $image_initial_scale * $image_max_scale);
+        /* Safari */
+        transform: scale($image_initial_scale * $image_max_scale, $image_initial_scale * $image_max_scale);
+    }
+}

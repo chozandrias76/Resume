@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ImageAlbum from 'components/ImageAlbum';
+import ImageGallery from 'components/ImageGallery';
 import {render} from 'react-dom';
 
 function ThumbnailObject(url, name) {
@@ -34,7 +35,16 @@ const allImageObjects = [{
 
 document.addEventListener('DOMContentLoaded', function(event) { //Run once the page is actually up
 
-  render(<ImageAlbum imageObjects={allImageObjects} />,
+  // render(<ImageAlbum imageObjects={allImageObjects} />,
+  // document.getElementById('product-images')
+  render(<ImageGallery imagesInGallery ={[
+        "http://i.imgur.com/qlK09NA.png",
+        "http://i.imgur.com/MAm4goL.jpg",
+        "http://i.imgur.com/acSuncc.png",
+        "http://i.imgur.com/iOgoxEb.png",
+        "http://i.imgur.com/QZTdtds.jpg",
+        "http://i.imgur.com/AcR9ert.png"
+    ]}/>,
   document.getElementById('product-images')
   );
 }, false);
