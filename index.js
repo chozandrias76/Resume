@@ -3,38 +3,36 @@
 var fs = require('fs');
 var path = require('path');
 
-function main() {
-    var textContents = "";
-    fs.readdir("./node_modules", function(err, dirs) {
-        if (err) {
-            console.log(err);
-            return;
-        }
-        dirs.forEach(function(dir) {
-            if (dir.indexOf(".") !== 0) {
-                var packageJsonFile = "./node_modules/" + dir + "/package.json";
-                if (fs.existsSync(packageJsonFile)) {
-                    fs.readFile(packageJsonFile, function(err, data) {
-                        if (err) {
-                            console.log(err);
-                        } else {
-                            var json = JSON.parse(data);
-                            //textContents += '"' + json.name + '": "' + json.version + '",';
-                            textContents += `"${json.name}": "${json.version},"
-                            `;
-                            fs.writeFile("./tmp/file.txt", textContents);
-                        }
-                    });
-                }
-            }
-        });
-        //fs.writeFile("./tmp/file.txt", textContents);
+// function main() {
+//     var textContents = "";
+//     fs.readdir("./node_modules", function(err, dirs) {
+//         if (err) {
+//             console.log(err);
+//             return;
+//         }
+//         dirs.forEach(function(dir) {
+//             if (dir.indexOf(".") !== 0) {
+//                 var packageJsonFile = "./node_modules/" + dir + "/package.json";
+//                 if (fs.existsSync(packageJsonFile)) {
+//                     fs.readFile(packageJsonFile, function(err, data) {
+//                         if (err) {
+//                             console.log(err);
+//                         } else {
+//                             var json = JSON.parse(data);
+//                             //textContents += '"' + json.name + '": "' + json.version + '",';
+//                             textContents += `"${json.name}": "${json.version},"
+//                             `;
+//                             fs.writeFile("./tmp/file.txt", textContents);
+//                         }
+//                     });
+//                 }
+//             }
+//         });
 
-    });
-    console.log(textContents);
-}
+//     });
+// }
 
-main();
+// main();
 
 var express = require('express');
 var app = express();
