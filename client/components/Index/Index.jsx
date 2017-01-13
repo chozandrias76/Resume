@@ -3,12 +3,8 @@ import ImageAlbum from 'components/ImageAlbum';
 import ImageGallery from 'components/ImageGallery';
 import {render} from 'react-dom';
 
-function ThumbnailObject(url, name) {
-  this.url = url;
-  this.name = name;
-};
 
-const allImageObjects = [{
+const projectImageObjects = [{
   url:"https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/569708963b0be3f9ce875be0/1452738819808/Render+07.png?format=750w",
   name:"REGILO"
 },
@@ -35,17 +31,16 @@ const allImageObjects = [{
 
 document.addEventListener('DOMContentLoaded', function(event) { //Run once the page is actually up
 
-  // render(<ImageAlbum imageObjects={allImageObjects} />,
-  // document.getElementById('product-images')
-  render(<ImageGallery imagesInGallery ={[
-        "http://i.imgur.com/qlK09NA.png",
-        "http://i.imgur.com/MAm4goL.jpg",
-        "http://i.imgur.com/acSuncc.png",
-        "http://i.imgur.com/iOgoxEb.png",
-        "http://i.imgur.com/QZTdtds.jpg",
-        "http://i.imgur.com/AcR9ert.png"
-    ]}/>,
-  document.getElementById('product-images')
+  render(<ImageAlbum imageObjects={projectImageObjects} />,
+  // render(<ImageGallery imagesInGallery ={[
+  //       "http://i.imgur.com/qlK09NA.png",
+  //       "http://i.imgur.com/MAm4goL.jpg",
+  //       "http://i.imgur.com/acSuncc.png",
+  //       "http://i.imgur.com/iOgoxEb.png",
+  //       "http://i.imgur.com/QZTdtds.jpg",
+  //       "http://i.imgur.com/AcR9ert.png"
+  //   ]}/>,
+  document.getElementById('first-section')
   );
 }, false);
 
@@ -54,14 +49,9 @@ class IndexComponent extends Component {
   render() {
     return (
       <div>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css"/> {/* Source Image  https://www.artstation.com/artwork/50JvP*/}
-
         <div id="content">
           <div className="container">
-            <section className="first-section" id="product-images"></section>
+            <section id="first-section"></section>
           </div>
         </div>
       </div>

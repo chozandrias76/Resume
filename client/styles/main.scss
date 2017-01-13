@@ -7,12 +7,10 @@ $color_pale_sky_approx: #4a4431;
 $color_spindle_approx: #b7d5e6;
 $color_pearl_bush_approx: #ede0d5;
 $white: #fff;
-
 //fonts
 $font_0: Helvetica;
 // $font_0: Playfair Display;
 $font_1: serif;
-
 //urls
 $url_d: url(http://i.imgur.com/cBWDjDX.png);
 $url_0: url(http://i.imgur.com/PA2wD61.png);
@@ -21,129 +19,175 @@ $url_2: url(http://i.imgur.com/VPVTYQm.png);
 $url_3: url(http://i.imgur.com/elCqyOz.png);
 $url_4: url(http://i.imgur.com/CmI9lP5.png);
 $url_5: url(https://i.imgur.com/gOJMjAq.png);
-
 body {
-	padding: 0;
-		margin: 0;
-		background-color: $color_pale_sky_approx;
-		font-family: $font_0, $font_1;
-		color: $color_spindle_approx;
+    padding: 0;
+    margin: 0;
+    background-color: $color_pale_sky_approx;
+    font-family: $font_0, $font_1;
+    color: $color_spindle_approx;
 }
+
 html {
-	min-height: 100%;
+    min-height: 100%;
 }
+
 .cover-image {
-	width: 300px;
-	height: 300px;
-	background-size: cover;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 5px;
-	overflow: hidden;
-	display: inline-block;
-	margin: 2em;
-	&:hover .overlay {
-		opacity: 1;
-	}
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 2em;
+    &:hover .overlay {
+        opacity: 1;
+    }
 }
+
 .overlay {
-	background: $black_75;
-	text-align: center;
-	width: 300px;
-	height: 300px;
-	line-height: 300px;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 5px;
-	opacity: 0;
+    background: $black_75;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    border-radius: 5px;
+    opacity: 0;
+    &:hover {
+        cursor: pointer;
+    }
 }
+
 span {
-	display: inline-block;
-	vertical-align: middle;
-	line-height: -50%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: -50%;
 }
+
 .text-overlay {
-	font-family: $font_0;
-	font-weight: 900;
-	color: $white_85;
-	font-size: 24px;
+    font-family: $font_0;
+    font-weight: 900;
+    color: $white_85;
+    font-size: 24px;
+    &:hover {
+        cursor: default;
+    }
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  not supported by any browser */
+    &:mousedown {
+        cursor: default;
+    }
+}
+
+.avoid-clicks {
+    pointer-events: none;
 }
 
 #front {
-	overflow: hidden;
-	position: relative;
-	//margin-bottom: 0px;
-}
-#content {
-	background-color: #383737;
-}
-.navbar.navbar-inverse.navbar-static-top{
-	margin-bottom: 0px;
-}
-.layer {
-	background-position: bottom center;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	width:100%;
-	height:100%;
-	position: fixed;
-	z-index: -1;
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
-#front-mobile {
-	display: none;
-	background: $url_d no-repeat center bottom/cover;
-	height: 320px;
-}
-.first-section {
-	padding: 50px 0 20px;
-}
-p {
-	color: $color_spindle_approx;
-	color: $color_pearl_bush_approx;
-	font-size: 18px;
-	line-height: 150%;
-}
-.text-header {
-	font-size: 50px;
-	text-align: center;
-}
-h1 {
-	line-height: 120%;
-	margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    //margin-bottom: 0px;
 }
 
-.layer-default{
-	background-image: $url_d;
+#content {
+    background-color: #383737;
+}
+
+.navbar.navbar-inverse.navbar-static-top {
+    margin-bottom: 0px;
+}
+
+.layer {
+    background-position: bottom center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#front-mobile {
+    display: none;
+    background: $url_d no-repeat center bottom/cover;
+    height: 320px;
+}
+
+#first-section {
+    padding: 50px 0 20px;
+}
+
+p {
+    color: $color_spindle_approx;
+    color: $color_pearl_bush_approx;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.text-header {
+    font-size: 50px;
+    text-align: center;
+}
+
+h1 {
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.layer-default {
+    background-image: $url_d;
 }
 
 .layer-bg {
-	background-image: $url_0;
+    background-image: $url_0;
 }
+
 .layer-1 {
-	background-image: $url_1;
+    background-image: $url_1;
 }
+
 .layer-2 {
-	background-image: $url_2;
+    background-image: $url_2;
 }
+
 .layer-3 {
-	background-image: $url_3;
+    background-image: $url_3;
 }
+
 .layer-overlay {
-	background-image: $url_4;
+    background-image: $url_4;
 }
+
 @media only screen and(max-width: 768px) {
-	#front {
-		display: none;
-	}
-	#front-mobile {
-		display: block;
-	}
+    #front {
+        display: none;
+    }
+    #front-mobile {
+        display: block;
+    }
 }
+
 .tutorial-link {
-	color: $white;
-	font-size: 18px;
-	text-decoration: underline;
-	&:hover {
-		color: $color_pearl_bush_approx;
-	}
+    color: $white;
+    font-size: 18px;
+    text-decoration: underline;
+    &:hover {
+        color: $color_pearl_bush_approx;
+    }
 }
