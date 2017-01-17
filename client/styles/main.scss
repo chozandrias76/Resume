@@ -39,6 +39,18 @@ html {
     overflow: hidden;
     display: inline-block;
     margin: 2em;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    &:hover {
+        -webkit-filter: none;
+        -moz-filter: none;
+        -o-filter: none;
+        -ms-filter: none;
+        filter: none;
+    }
     &:hover .overlay {
         opacity: 1;
     }
@@ -96,9 +108,10 @@ span {
     pointer-events: none;
 }
 
-#front {
+#parallax-area {
     overflow: hidden;
     position: relative;
+    min-height: 880px;
     //margin-bottom: 0px;
 }
 
@@ -123,7 +136,7 @@ span {
     filter: grayscale(100%);
 }
 
-#front-mobile {
+#parallax-area-mobile {
     display: none;
     background: $url_d no-repeat center bottom/cover;
     height: 320px;
@@ -175,10 +188,10 @@ h1 {
 }
 
 @media only screen and(max-width: 768px) {
-    #front {
+    #parallax-area {
         display: none;
     }
-    #front-mobile {
+    #parallax-area -mobile {
         display: block;
     }
 }

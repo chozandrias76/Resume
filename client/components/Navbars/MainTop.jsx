@@ -11,7 +11,9 @@ class TopNavbarComponent extends Component {
         <a className="navbar-brand" href="#"><img src="https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/56cf7949555986536eb56dcd/1470171109698/?format=1000w" width={30} className="text-center" /></a>
       </div>
       <ul className="nav navbar-nav navbar-right">
-        <li className="active"><a href="#projects">Projects</a></li>
+        <li className="active">
+        <a href="#projects">Projects</a>
+        </li>
         <li><a href="#about-me">About</a></li>
       </ul>
     </div>

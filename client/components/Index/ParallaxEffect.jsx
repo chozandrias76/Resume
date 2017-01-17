@@ -3,12 +3,12 @@ import React, {Component} from 'react';
 (function() {
 
   document.addEventListener('DOMContentLoaded', function(event) { //Run once the page is actually up
-    var front = document.getElementById("front");
-    front.style.height = window.outerHeight - 200;
+    var parallaxArea = document.getElementById("parallax-area");
+    parallaxArea.style.height = window.outerHeight - 200;
   }, false);
 
   window.addEventListener('resize', function(event) { //Resize based on window size
-    front.style.height = window.outerHeight - 200;
+    parallaxArea.style.height = window.outerHeight - 200;
   }, false);
 
   window.addEventListener('scroll', function(event) { //This is how we do the parallax effect
@@ -47,7 +47,7 @@ class ParallaxComponent extends Component {
   render() {
     return (
       <div>
-      <div id="front">
+      <div id="parallax-area">
           <div crossOrigin className="layer-default layer" data-depth={0.0} data-type="parallax"/>
           <div crossOrigin className="layer-bg layer" data-depth="0.01" data-type="parallax"/>
           <div crossOrigin className="layer-1 layer" data-depth="0.1" data-type="parallax"/>
@@ -55,7 +55,7 @@ class ParallaxComponent extends Component {
           <div crossOrigin className="layer-3 layer" data-depth="0.50" data-type="parallax"/>
           <div crossOrigin className="layer-overlay layer" data-depth="0.95" data-type="parallax"/>
         </div>
-    <div id = "front-mobile" />
+    <div id = "parallax-area-mobile" />
     </div>
     );
   }
