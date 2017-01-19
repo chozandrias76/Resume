@@ -9,6 +9,7 @@ import Parallax from 'components/Headers/ParallaxEffect';
 import TopNavBar from 'components/Navbars/MainTop';
 import ImageAlbum from 'components/ImageAlbum';
 import ImageGallery from 'components/ImageGallery';
+import MainFooter from 'components/Footers/MainBottom';
 
 const projectImageObjects = [
   {
@@ -40,6 +41,8 @@ document.addEventListener('DOMContentLoaded', function (event) { //Run once the 
     <Parallax/>, document.getElementById('parallax-header'));
   render(
     <TopNavBar/>, document.getElementById('top-nav-bar'));
+    render(
+    <MainFooter/>, document.getElementById('footer'));
 
   render(
     <Router history={hashHistory}>
@@ -103,7 +106,7 @@ class DefaultComponent extends Component {
               <div className="profile-widget">
                 <h3>Skillset</h3>
 
-                <h5>3D Modeling</h5>
+                <h5>Industrial Design</h5>
 
                 <h5>HTML / CSS3 / SASS</h5>
 
@@ -113,7 +116,7 @@ class DefaultComponent extends Component {
               </div>
 
               <div className="profile-widget">
-                <h3>Social Profiles</h3>
+                <h3>Social</h3>
                 <div className="widget-social" lv45phk="" hidden="">
 
                   <a href="#">
@@ -143,7 +146,7 @@ class DefaultComponent extends Component {
               visibility: 'visible',
               animationName: 'bounceInRight'
             }}>
-              <h3>Profesional Profile</h3>
+              <h3>What I'm about</h3>
               <p>I am a graduate from The Art Institute of Seattle and I am a problem solver
                 at heart. I enjoy solving design, programing and engineering problems alike.</p>
               <p>I am probably most interested in technology because of the unique ways it is
@@ -169,11 +172,6 @@ class IndexComponent extends Component {
             <section id="first-section"></section>
           </div>
         </div>
-        <footer className="footer">
-          <div className="container">
-            <p className="text-muted">Place sticky footer content here.</p>
-          </div>
-        </footer>
       </div>
     );
   }
