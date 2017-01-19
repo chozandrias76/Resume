@@ -4,6 +4,7 @@ class MainFooterComponent extends Component {
 
     render() {
         return (
+            <div>
             <section id="contact" class="section">
 
                 <div className="container">
@@ -107,6 +108,24 @@ class MainFooterComponent extends Component {
                 </div>
 
             </section>
+            <footer id="finalFooter">
+
+			<div className="container">
+
+				<div className="row">
+
+					<div className="col-md-12">
+						<p className="copy">
+							© 2017 Colin Swenson-Healey, All Rights Reserved.
+						</p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</footer>
+        </div>
         );
     }
 }
