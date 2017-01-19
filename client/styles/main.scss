@@ -31,10 +31,121 @@ html {
     min-height: 100%;
 }
 
+.headline {
+    margin: 0 0 60px;
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    // height: 60px;
+    background-color: #4d4c4c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font: 'Helvetica', serif, sans-serif;
+    margin: 5px 0 5px;
+    color: #222;
+}
+
+.social-icons .btn {
+    margin-right: 15px;
+}
+
+.social-icons {
+    padding-top: 10px;
+    margin-bottom: 35px;
+}
+
+.social-icons .btn.btn-clear {
+    border: 1px solid #fff;
+}
+
+.btn-round {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    padding: 0;
+    padding-top: 5px;
+}
+
+.btn-round i {
+    font-size: 20px;
+    top: 15px;
+    position: relative;
+}
+
+.btn.btn-clear {
+    border: 1px solid #fff;
+    color: #fff;
+    background: none;
+    background-color: none;
+    font-weight: bold;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+.btn.btn-clear:hover,
+.btn.btn-clear.selected {
+    //background: #fff;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.btn-twitter:hover {
+    color: #2BA9E0;
+}
+
+.btn-facebook:hover {
+    color: #204385;
+}
+
+.btn-dribbble:hover {
+    color: #D92C85;
+}
+
+.btn-instagram:hover {
+    color: #BAB1A8;
+}
+
+.btn-linkedin:hover {
+    color: #015786;
+}
+
+.btn-pinterest:hover {
+    color: #CA2128;
+}
+
+.btn-github:hover {
+    color: teal;
+}
+
+.btn-google:hover {
+    color: #D3492C;
+}
+
 .cover-image {
     width: 300px;
     height: 300px;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .5s ease-out;
     border-radius: 5px;
     overflow: hidden;
     display: inline-block;

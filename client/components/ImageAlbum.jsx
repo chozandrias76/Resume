@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
+import Link from 'react-router';
 import $ from "jquery";
+
+import ImageGallery from 'components/ImageGallery';
 
 function ImageObject(props) {
   var divStyle = {
-    backgroundImage: 'url(\'' + props.value.url + '\')',
-    //onclick: `window.location.href='/${props.value.name}';`
+    backgroundImage: 'url(\'' + props.value.url + '\')'
   };
   return (
     <div className="cover-image" id={props.value.name} style={divStyle}>
@@ -14,19 +16,26 @@ function ImageObject(props) {
         </span>
       </div>
     </div>
+   
   );
 }
 
-class ImageAlbum extends Component {
+$(".cover-image").on("click", () => render(<ImageGallery imagesInGallery ={[ "http://i.imgur.com/qlK09NA.png",
+     "http://i.imgur.com/MAm4goL.jpg",   "http://i.imgur.com/acSuncc.png",
+   "http://i.imgur.com/iOgoxEb.png",     "http://i.imgur.com/QZTdtds.jpg",
+   "http://i.imgur.com/AcR9ert.png"  ]}/>,
+  document.getElementById('first-section')));
 
-  render() {
-    const imageObjects = this.props.route.imageObjects;
-    return (
-      <div>
-        {imageObjects.map((imageObject) => <ImageObject key={imageObject.name} value={imageObject}/>)}
-      </div>
-    );
-  }
-}
+    class ImageAlbum extends Component {
 
-export default ImageAlbum;
+      render() {
+        const imageObjects = this.props.route.imageObjects;
+        return (
+          <div>
+            {imageObjects.map((imageObject) => <ImageObject key={imageObject.name} value={imageObject}/>)}
+          </div>
+        );
+      }
+    }
+
+    export default ImageAlbum;
