@@ -13,23 +13,22 @@ import MainFooter from 'components/Footers/MainBottom';
 
 const projectImageObjects = [
   {
-    url: "https://s3-us-west-2.amazonaws.com/web-dev-storage/Regilo/Render+07.png",
+    url: "",
     name: "REGILO"
   }, {
-    url: "https://s3-us-west-2.amazonaws.com/web-dev-storage/3D+mouse/Usability+Final.png",
+    url: "",
     name: "SAMXA'E"
   }, {
-    url: "https://s3-us-west-2.amazonaws.com/web-dev-storage/Hellboy/_MG_1197.jpg",
+    url: "",
     name: "HELLBOY PACKAGE DESIGN"
   }, {
-    url: "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/Cutaway.127.png",
+    url: "",
     name: "THE RO"
   }, {
-    url: "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/20150519_203927.jpg",
+    url: "",
     name: "STEAMER REDESIGN"
   }, {
-    url: "https://s3-us-west-2.amazonaws.com/web-dev-storage/Stove/Camp+Stove+Redesign+04+" +
-        "Paint.png",
+    url: "",
     name: "GRILL TEK"
   }
 ];
