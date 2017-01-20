@@ -9,8 +9,8 @@ $(document)
         .on('mouseover', function (e) {
             hideAllSiblings(e);
         })
-        .on('click', function () {
-            var newUrl = $(this).css("background-image");
+        .on('click', function (e) {
+            var newUrl = $(e.target).css("background-image");
             //alert(newUrl)
             $(this)
                 .parent()
@@ -41,66 +41,76 @@ function getProductImages(productName) {
     switch (productName) {
         case 'REGILO':
             imagesInGallery = [
-                "http://i.imgur.com/qlK09NA.png",
-                "http://i.imgur.com/MAm4goL.jpg",
-                "http://i.imgur.com/acSuncc.png",
-                "http://i.imgur.com/iOgoxEb.png",
-                "http://i.imgur.com/QZTdtds.jpg",
-                "http://i.imgur.com/AcR9ert.png"
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Regilo/Portfolio+Book.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Regilo/Portfolio+Book2.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Regilo/Portfolio+Book3.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Regilo/Portfolio+Book4.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Regilo/Portfolio+Book5.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Regilo/Portfolio+Book6.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Regilo/Portfolio+Book7.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Regilo/Portfolio+Book8.png"
             ];
             break;
         case `SAMXA'E`:
             imagesInGallery = [
-                "http://i.imgur.com/qlK09NA.png",
-                "http://i.imgur.com/MAm4goL.jpg",
-                "http://i.imgur.com/acSuncc.png",
-                "http://i.imgur.com/iOgoxEb.png",
-                "http://i.imgur.com/QZTdtds.jpg",
-                "http://i.imgur.com/AcR9ert.png"
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/3D+mouse/Portfolio+Book.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/3D+mouse/Portfolio+Book2.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/3D+mouse/Portfolio+Book3.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/3D+mouse/Portfolio+Book4.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/3D+mouse/Portfolio+Book5.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/3D+mouse/Portfolio+Book6.png"
             ];
             break;
         case 'HELLBOY PACKAGE DESIGN':
             imagesInGallery = [
-                "http://i.imgur.com/qlK09NA.png",
-                "http://i.imgur.com/MAm4goL.jpg",
-                "http://i.imgur.com/acSuncc.png",
-                "http://i.imgur.com/iOgoxEb.png",
-                "http://i.imgur.com/QZTdtds.jpg",
-                "http://i.imgur.com/AcR9ert.png"
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Hellboy/Portfolio+Book.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Hellboy/Portfolio+Book2.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Hellboy/Portfolio+Book3.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Hellboy/Portfolio+Book4.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Hellboy/Portfolio+Book5.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Hellboy/Portfolio+Book6.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Hellboy/Portfolio+Book7.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Hellboy/Portfolio+Book8.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Hellboy/Portfolio+Book9.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Hellboy/Portfolio+Book10.png"
             ];
             break;
         case 'THE RO':
             imagesInGallery = [
-                "http://i.imgur.com/qlK09NA.png",
-                "http://i.imgur.com/MAm4goL.jpg",
-                "http://i.imgur.com/acSuncc.png",
-                "http://i.imgur.com/iOgoxEb.png",
-                "http://i.imgur.com/QZTdtds.jpg",
-                "http://i.imgur.com/AcR9ert.png"
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/Portfolio+Book.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/Portfolio+Book1.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/Portfolio+Book2.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/Portfolio+Book3.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/Portfolio+Book4.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/Portfolio+Book5.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/Portfolio+Book6.png",
             ];
             break;
         case 'STEAMER REDESIGN':
             imagesInGallery = [
-                "http://i.imgur.com/qlK09NA.png",
-                "http://i.imgur.com/MAm4goL.jpg",
-                "http://i.imgur.com/acSuncc.png",
-                "http://i.imgur.com/iOgoxEb.png",
-                "http://i.imgur.com/QZTdtds.jpg",
-                "http://i.imgur.com/AcR9ert.png"
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/Portfolio+Book.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/Portfolio+Book1.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/Portfolio+Book2.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/Portfolio+Book3.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/Portfolio+Book4.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/Portfolio+Book5.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/Portfolio+Book6.png",
+
             ];
             break;
         case 'TRANSPORTATION DESIGN':
             imagesInGallery = [
-                "http://i.imgur.com/qlK09NA.png",
-                "http://i.imgur.com/MAm4goL.jpg",
-                "http://i.imgur.com/acSuncc.png",
-                "http://i.imgur.com/iOgoxEb.png",
-                "http://i.imgur.com/QZTdtds.jpg",
-                "http://i.imgur.com/AcR9ert.png"
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/Portfolio+Book.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/Portfolio+Book1.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/Portfolio+Book2.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/Portfolio+Book3.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/Portfolio+Book4.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/Portfolio+Book5.png",
+                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/Portfolio+Book6.png",
             ];
             break;
         default:
-            imagesInGallery = [];
+            imagesInGallery = [""];
             //default code block
     }
     return imagesInGallery;
@@ -108,10 +118,11 @@ function getProductImages(productName) {
 
 class ImageGallery extends Component {
     render() {
-        var ourProductImages = getProductImages(this.props.productName);
+        const ourProductImages = getProductImages(this.props.productName);
+        const initialActiveImageStyle = ourProductImages != [""] ? {backgroundImage: `url(${ourProductImages[0]})`} : {backgroundImage: `url('https://placehold.it/1000x600')`};
         return (
             <div className="galleryWrapper"><br/>
-                <div className="galleryActiveImage"></div>
+    <div className="galleryActiveImage" style={initialActiveImageStyle}></div>
                 <div className="galleryList">
                     {ourProductImages
                         .map(function (value) {
