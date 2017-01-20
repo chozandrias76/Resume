@@ -1,18 +1,24 @@
 import React, {Component} from 'react';
 import $ from "jquery";
 
-$(document).ready(function () {
-    $(document)
-        .on('mouseover', '.galleryListImage', function (e) {
+import 'styles/gallery.scss';
+
+$(document)
+.ready(function () {
+    $('.galleryListImage')
+        .on('mouseover', function (e) {
             hideAllSiblings(e);
         })
-        .on('click', '.galleryListImage', function (){
+        .on('click', function () {
             var newUrl = $(this).css("background-image");
             //alert(newUrl)
-            $(this).parent().siblings(".galleryActiveImage").css({'background-image':newUrl});
+            $(this)
+                .parent()
+                .siblings(".galleryActiveImage")
+                .css({'background-image': newUrl});
             //setgalleryActiveImage(e);
         })
-        .on('mouseout', '.galleryListImage', function (e) {
+        .on('mouseout', function (e) {
             showAllSiblings(e);
         });
 });
@@ -30,15 +36,84 @@ function showAllSiblings(elm) {
         .addClass("fadeInElem");
 }
 
+function getProductImages(productName) {
+    var imagesInGallery;
+    switch (productName) {
+        case 'REGILO':
+            imagesInGallery = [
+                "http://i.imgur.com/qlK09NA.png",
+                "http://i.imgur.com/MAm4goL.jpg",
+                "http://i.imgur.com/acSuncc.png",
+                "http://i.imgur.com/iOgoxEb.png",
+                "http://i.imgur.com/QZTdtds.jpg",
+                "http://i.imgur.com/AcR9ert.png"
+            ];
+            break;
+        case `SAMXA'E`:
+            imagesInGallery = [
+                "http://i.imgur.com/qlK09NA.png",
+                "http://i.imgur.com/MAm4goL.jpg",
+                "http://i.imgur.com/acSuncc.png",
+                "http://i.imgur.com/iOgoxEb.png",
+                "http://i.imgur.com/QZTdtds.jpg",
+                "http://i.imgur.com/AcR9ert.png"
+            ];
+            break;
+        case 'HELLBOY PACKAGE DESIGN':
+            imagesInGallery = [
+                "http://i.imgur.com/qlK09NA.png",
+                "http://i.imgur.com/MAm4goL.jpg",
+                "http://i.imgur.com/acSuncc.png",
+                "http://i.imgur.com/iOgoxEb.png",
+                "http://i.imgur.com/QZTdtds.jpg",
+                "http://i.imgur.com/AcR9ert.png"
+            ];
+            break;
+        case 'THE RO':
+            imagesInGallery = [
+                "http://i.imgur.com/qlK09NA.png",
+                "http://i.imgur.com/MAm4goL.jpg",
+                "http://i.imgur.com/acSuncc.png",
+                "http://i.imgur.com/iOgoxEb.png",
+                "http://i.imgur.com/QZTdtds.jpg",
+                "http://i.imgur.com/AcR9ert.png"
+            ];
+            break;
+        case 'STEAMER REDESIGN':
+            imagesInGallery = [
+                "http://i.imgur.com/qlK09NA.png",
+                "http://i.imgur.com/MAm4goL.jpg",
+                "http://i.imgur.com/acSuncc.png",
+                "http://i.imgur.com/iOgoxEb.png",
+                "http://i.imgur.com/QZTdtds.jpg",
+                "http://i.imgur.com/AcR9ert.png"
+            ];
+            break;
+        case 'TRANSPORTATION DESIGN':
+            imagesInGallery = [
+                "http://i.imgur.com/qlK09NA.png",
+                "http://i.imgur.com/MAm4goL.jpg",
+                "http://i.imgur.com/acSuncc.png",
+                "http://i.imgur.com/iOgoxEb.png",
+                "http://i.imgur.com/QZTdtds.jpg",
+                "http://i.imgur.com/AcR9ert.png"
+            ];
+            break;
+        default:
+            imagesInGallery = [];
+            //default code block
+    }
+    return imagesInGallery;
+}
+
 class ImageGallery extends Component {
     render() {
+        var ourProductImages = getProductImages(this.props.productName);
         return (
             <div className="galleryWrapper"><br/>
                 <div className="galleryActiveImage"></div>
                 <div className="galleryList">
-                    {this
-                        .props
-                        .imagesInGallery
+                    {ourProductImages
                         .map(function (value) {
                             var divStyle = {
                                 backgroundImage: `url(${value})`

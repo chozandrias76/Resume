@@ -1,41 +1,48 @@
 import React, {Component} from 'react';
-import Link from 'react-router';
+import {render} from 'react-dom';
+import {Link, Router, Route} from 'react-router';
 import $ from "jquery";
 
 import ImageGallery from 'components/ImageGallery';
 
 function ImageObject(props) {
-  var divStyle = {
+  const divStyle = {
     backgroundImage: 'url(\'' + props.value.url + '\')'
   };
   return (
+    <Link to={{pathname: '/projects', query: {project: props.value.name}}}>
     <div className="cover-image" id={props.value.name} style={divStyle}>
+    
       <div className="overlay avoid-clicks">
         <span className="text-overlay no-select avoid-clicks">
           {props.value.name}
         </span>
       </div>
+      
     </div>
-   
+    </Link>
   );
 }
 
-$(".cover-image").on("click", () => render(<ImageGallery imagesInGallery ={[ "http://i.imgur.com/qlK09NA.png",
-     "http://i.imgur.com/MAm4goL.jpg",   "http://i.imgur.com/acSuncc.png",
-   "http://i.imgur.com/iOgoxEb.png",     "http://i.imgur.com/QZTdtds.jpg",
-   "http://i.imgur.com/AcR9ert.png"  ]}/>,
-  document.getElementById('first-section')));
+// $(document)
+//   .ready(function () {
+//     $(".cover-image").on("click", (e) => {
+//       //console.log(e.target.id);
+//       render(
+//         <ImageGallery productName ={e.target.id}/>, document.getElementById('first-section'))
+//     });
+//   });
 
-    class ImageAlbum extends Component {
+class ImageAlbum extends Component {
 
-      render() {
-        const imageObjects = this.props.route.imageObjects;
-        return (
-          <div>
-            {imageObjects.map((imageObject) => <ImageObject key={imageObject.name} value={imageObject}/>)}
-          </div>
-        );
-      }
-    }
+  render() {
+    const imageObjects = this.props.imageObjects;
+    return (
+      <div className="album-container">
+        {imageObjects.map((imageObject) => <ImageObject key={imageObject.name} value={imageObject}/>)}
+      </div>
+    );
+  }
+}
 
-    export default ImageAlbum;
+export default ImageAlbum;
