@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/srn/react-webpack-boilerplate.git"
+        "url": "https://github.com/chozandrias76/Resume.git"
     },
     "engines": {
         "node": "5",
