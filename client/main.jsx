@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
 import {Router, Route, BodyRoute, hashHistory, IndexRoute, browserHistory} from "react-router";
-let history = process.env.NODE_ENV === "production" ? browserHistory : hashHistory;
 
 import 'styles/main.scss';
 
