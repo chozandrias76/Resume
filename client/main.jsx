@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
 import {Router, Route, BodyRoute, hashHistory, IndexRoute, browserHistory} from "react-router";
+let history = process.env.NODE_ENV === "production" ? browserHistory : hashHistory;
 
 import 'styles/main.scss';
 
@@ -12,7 +13,7 @@ render(
   <Layout/>, document.getElementById('js-main'));
 
 render(
-  <Router history={hashHistory}>
+  <Router history={history}>
   <Route path="/" component={Index}></Route>
   <Route path="projects" name="projects" component={Projects}></Route>
 </Router>, 
