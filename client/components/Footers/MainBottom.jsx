@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
+import $ from 'jquery';
 
 class MainFooterComponent extends Component {
-
+    createEmail(){
+        window.location = `mailto:colin.p.swensonh@gmail.com?subject=${$('messageBox').serialize()}`
+    }
     render() {
         return (
             <div>
@@ -62,21 +65,19 @@ class MainFooterComponent extends Component {
                                     <div className="form-group">
                                         <textarea
                                             className="form-control"
-                                            id="message"
+                                            id="messageBox"
                                             name="message"
                                             rows="7"
                                             placeholder="Your message"
-                                            required=""></textarea>
+                                            required="">
+                                            </textarea>
                                         <p className="help-block text-danger"></p>
                                     </div>
-
-                                    <button type="submit" className="btn btn-custom-1">
+                                </form>
+                                <button type="submit" onClick={this.createEmail} className="btn btn-custom-1">
                                         <i className="fa fa-bullhorn icon-before"></i>
                                         Send it
                                     </button>
-
-                                </form>
-
                                 <div id="contact-response"></div>
 
                             </div>

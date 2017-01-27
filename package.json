@@ -27,12 +27,12 @@
     "hot",
     "reload"
   ],
-  "author": "Søren Brokær <root@srn.io> (http://srn.io)",
+  "author": "Colin Swenson-Healey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/srn/react-webpack-boilerplate/issues"
+    "url": "https://github.com/chozandrias76/Resume"
   },
-  "homepage": "https://github.com/srn/react-webpack-boilerplate",
+  "homepage": "https://colin-resume.herokuapp.com/",
   "dependencies": {
     "Base64": "0.2.1",
     "abab": "1.0.3",

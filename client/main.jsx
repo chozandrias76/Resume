@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
-import {Router, Route, BodyRoute, hashHistory, IndexRoute} from "react-router";
+import {Router, Route, BodyRoute, hashHistory, IndexRoute, browserHistory} from "react-router";
 
 import 'styles/main.scss';
 

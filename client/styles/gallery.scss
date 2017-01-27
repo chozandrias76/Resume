@@ -3,8 +3,8 @@ $url_g1: url(http://i.imgur.com/qlK09NA.png);
 $image_initial_scale: 1;
 $image_max_scale: 2.0;
 .galleryActiveImage {
-    width: 1000px;
-    height: 600px;
+    width: 823px;
+    height: 635px;
     background-size: cover;
     background-image: $url_g0;
     overflow: hidden;
@@ -32,17 +32,17 @@ $image_max_scale: 2.0;
 
 .galleryListImage {
     animation-timing-function: ease;
-    width: 100px;
-    height: 60px;
+    width: 82px;
+    height: 63px;
     background-size: cover;
     //background-image: $url_g1;
     overflow: hidden;
     display: inline-block;
     margin: 2em;
     &:hover {
-        animation-name: scale-double;
-        animation-duration: 1s;
-        transform: scale($image_initial_scale * $image_max_scale, $image_initial_scale * $image_max_scale);
+        // animation-name: scale-double;
+        // animation-duration: 1s;
+        // transform: scale($image_initial_scale * $image_max_scale, $image_initial_scale * $image_max_scale);
     }
 }
 
