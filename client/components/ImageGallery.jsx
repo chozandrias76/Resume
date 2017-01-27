@@ -92,7 +92,6 @@ function getProductImages(productName) {
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/thumbs/Portfolio+Book3.png",
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/thumbs/Portfolio+Book4.png",
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/thumbs/Portfolio+Book5.png",
-                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/thumbs/Portfolio+Book6.png"
             ];
             break;
         default:
