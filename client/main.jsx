@@ -13,7 +13,7 @@ render(
   <Layout/>, document.getElementById('js-main'));
 
 render(
-  <Router history={history}>
+  <Router history={browserHistory}>
   <Route path="/" component={Index}></Route>
   <Route path="projects" name="projects" component={Projects}></Route>
 </Router>, 

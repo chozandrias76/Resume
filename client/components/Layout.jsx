@@ -28,9 +28,4 @@ class LayoutComponent extends Component {
     }
 }
 
-// class BodyComponent extends Component {   render() {     return (       <div>
-//         <div id="content">           <div className="container">
-// <section id="first-section"></section>           </div>         </div>
-// </div>     );   } }
-
 export default LayoutComponent;

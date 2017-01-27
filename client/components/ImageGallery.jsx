@@ -68,7 +68,6 @@ function getProductImages(productName) {
         case 'THE RO':
             imagesInGallery = [
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/thumbs/Portfolio+Book.png",
-                "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/thumbs/Portfolio+Book1.png",
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/thumbs/Portfolio+Book2.png",
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/thumbs/Portfolio+Book3.png",
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/The+Ro/thumbs/Portfolio+Book4.png",
@@ -79,7 +78,6 @@ function getProductImages(productName) {
         case 'STEAMER REDESIGN':
             imagesInGallery = [
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/thumbs/Portfolio+Book.png",
-                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/thumbs/Portfolio+Book1.png",
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/thumbs/Portfolio+Book2.png",
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/thumbs/Portfolio+Book3.png",
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/Steamer/thumbs/Portfolio+Book4.png",
@@ -90,7 +88,6 @@ function getProductImages(productName) {
         case 'TRANSPORTATION DESIGN':
             imagesInGallery = [
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/thumbs/Portfolio+Book.png",
-                "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/thumbs/Portfolio+Book1.png",
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/thumbs/Portfolio+Book2.png",
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/thumbs/Portfolio+Book3.png",
                 "https://s3-us-west-2.amazonaws.com/web-dev-storage/Transportation+Design/thumbs/Portfolio+Book4.png",
@@ -114,7 +111,7 @@ class ImageGallery extends Component {
         const ourProductImages = getProductImages(this.props.productName);
         var initialActiveImageStyle = ourProductImages != [""]
             ? {
-                backgroundImage: `url(${ourProductImages[0].replace("/thumbs", "")})`
+                backgroundImage: `url(${ourProductImages[0].replace("/thumbs", "").replace(".png", "-min.png")})`
             }
             : {
                 backgroundImage: `url('https://placehold.it/1000x600')`
@@ -128,7 +125,7 @@ class ImageGallery extends Component {
                             var divStyle = {
                                 backgroundImage: `url(${value})`
                             };
-                            return <div key={value} style={divStyle} onClick={setActiveImage} className="galleryListImage"></div>
+                            return <div key={value}  style={divStyle} onClick={setActiveImage} className="galleryListImage link-style"></div>
                         })}
                 </div>
             </div>

@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router';
+import {Link, Router, browserHistory, Route, withRouter} from 'react-router';
+import {render} from 'react-dom';
+import Projects from 'components/Projects';
 
 class TopNavbarComponent extends Component {
-
   render() {
     return (
       <nav className="navbar navbar-inverse navbar-static-top">
         <div className="container-fluid">
           <div className="navbar-header">
-            <a className="navbar-brand" href="#"><img
+            <a className="navbar-brand" href="/"><img
               src="https://static1.squarespace.com/static/56665a0857eb8dd2594cdf8e/t/56cf7949555986536eb56dcd/1470171109698/?format=1000w"
               width={30}
               className="text-center"/></a>
@@ -16,13 +17,13 @@ class TopNavbarComponent extends Component {
           <ul className="nav navbar-nav navbar-right">
 
             <li>
-              <a href="#projects">Projects</a>
+              <a className="link-style" onClick={()=> browserHistory.push('projects')}>Projects</a>
             </li>
             <li>
-              <a href="#blog">Blog</a>
+              <a className="link-style" onClick={()=> browserHistory.push('blog')}>Blog</a>
             </li>
             <li>
-              <a href="#about-me">About</a>
+              <a className="link-style" onClick={()=> browserHistory.push('about')}>About Me</a>
             </li>
           </ul>
         </div>
@@ -30,5 +31,6 @@ class TopNavbarComponent extends Component {
     );
   }
 }
+
 
 export default TopNavbarComponent;

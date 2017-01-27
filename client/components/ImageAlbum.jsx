@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
-import {Link, Router, Route} from 'react-router';
+import {Link} from 'react-router';
 import $ from "jquery";
 
 import ImageGallery from 'components/ImageGallery';
@@ -24,15 +24,6 @@ function ImageObject(props) {
   );
 }
 
-// $(document)
-//   .ready(function () {
-//     $(".cover-image").on("click", (e) => {
-//       //console.log(e.target.id);
-//       render(
-//         <ImageGallery productName ={e.target.id}/>, document.getElementById('first-section'))
-//     });
-//   });
-
 class ImageAlbum extends Component {
 
   render() {
@@ -44,5 +35,6 @@ class ImageAlbum extends Component {
     );
   }
 }
+
 
 export default ImageAlbum;

@@ -284,6 +284,12 @@ h6 {
     }
 }
 
+.link-style {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
 span {
     display: inline-block;
     vertical-align: middle;
