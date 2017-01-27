@@ -36,8 +36,7 @@ class MainFooterComponent extends Component {
                             }}>
                                 <h2>Contact Me</h2>
                                 <p>Drop me a line!</p>
-                                <form id="contact-form" role="form" noValidate="">
-
+                                <form id="contact-form" role="form" noValidate="" action="mailto:colin.p.swensonh@gmail.com" method="get" enctype="text/plain">
                                     <div className="form-group">
                                         <label className="sr-only" htmlFor="name">Name</label>
                                         <input
@@ -73,11 +72,12 @@ class MainFooterComponent extends Component {
                                             </textarea>
                                         <p className="help-block text-danger"></p>
                                     </div>
-                                </form>
-                                <button type="submit" onClick={this.createEmail} className="btn btn-custom-1">
+                                     <button type="submit" name="submit" value="Send" className="btn btn-custom-1">
                                         <i className="fa fa-bullhorn icon-before"></i>
                                         Send it
                                     </button>
+                                </form>
+                               
                                 <div id="contact-response"></div>
 
                             </div>
