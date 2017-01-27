@@ -2,9 +2,7 @@ import React, {Component} from 'react';
 import $ from 'jquery';
 
 class MainFooterComponent extends Component {
-    createEmail(){
-        window.location = `mailto:colin.p.swensonh@gmail.com?subject=${$('messageBox').serialize()}`
-    }
+
     render() {
         return (
             <div>

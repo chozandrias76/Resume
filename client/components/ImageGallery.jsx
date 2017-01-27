@@ -124,7 +124,11 @@ class ImageGallery extends Component {
                             var divStyle = {
                                 backgroundImage: `url(${value})`
                             };
-                            return <div key={value}  style={divStyle} onClick={setActiveImage} className="galleryListImage link-style"></div>
+                            return (
+                                <div key={value}  style={divStyle} onClick={setActiveImage} className="galleryListImage link-style">
+                                    <div className="no-select" style={{display: 'none', backgroundImage: `url(${value.replace("/thumbs", "").replace(".png", "-min.png")})`}}/>
+                                </div>
+                                );
                         })}
                 </div>
             </div>
