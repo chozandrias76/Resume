@@ -16,7 +16,7 @@ export default class IndexComponent extends Component {
               animationName: 'bounceInLeft'
             }}>
               <h2>Colin Swenson-Healey</h2>
-              <p>Designer. Programmer. Developer</p>
+              <p>Designer. Programmer. Tinkerer.</p>
             </div>
             </div>
             <div className="row">
