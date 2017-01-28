@@ -2,16 +2,9 @@ import React, {Component} from 'react';
 
 (function () {
 
-  
-
-  document.addEventListener('DOMContentLoaded', function (event) { //Run once the page is actually up
-    var parallaxArea = document.getElementById("parallax-area");
-    parallaxArea.style.height = window.outerHeight - 200;
-  }, false);
-
-  window.addEventListener('resize', function (event) { //Resize based on window size
-    parallaxArea.style.height = window.outerHeight - 200;
-  }, false);
+  // window.addEventListener('resize', function (event) { //Resize based on window size
+  //   document.getElementById("parallax-area").style.height = window.outerHeight;
+  // }, false);
 
   window.addEventListener('scroll', function (event) { //This is how we do the parallax effect
     var depth,
@@ -57,10 +50,9 @@ class ParallaxComponent extends Component {
 
   render() {
     switch (window.mobilecheck()) {
-      case false:
+      case false: 
         return (
-
-          <div id="parallax-area">
+          <div id="parallax-area" style={{backgroundImage: 'url(\'https://s3-us-west-2.amazonaws.com/web-dev-storage/Non+Projects/cBWDjDX.png\''}}>
             <div
               crossOrigin
               className="layer-default layer"
