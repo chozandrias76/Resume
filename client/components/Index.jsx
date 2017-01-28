@@ -87,7 +87,7 @@ export default class IndexComponent extends Component {
             }}>
               <h3>What I'm about</h3>
               <p>I am a graduate from The Art Institute of Seattle and I am a problem solver
-                at heart. I enjoy solving design, programing and engineering problems alike.</p>
+                at heart. I enjoy solving design, programming and engineering problems alike.</p>
               <p>I am most interested in technology because of the unique ways it is
                 helping people's lives. Technology is all around and I find excitement in
                 adapting technology in new ways to enrich our daily experiences.</p>

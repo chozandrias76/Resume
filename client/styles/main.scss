@@ -137,14 +137,23 @@ ul {
     color: #FFF;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h1 {
+    color: #d82b2b
+}
+
+h2 {
+    color: #d82b2b
+}
+
+h3 {
+    color: #b72828
+}
+
+h5 {
+    color: #ababab
+}
+
 h6 {
-    font: 'Helvetica', serif, sans-serif;
-    margin: 5px 0 5px;
     color: #222;
 }
 
@@ -369,7 +378,6 @@ span {
 }
 
 p {
-    color: $color_spindle_approx;
     color: $color_pearl_bush_approx;
     font-size: 18px;
     line-height: 150%;
@@ -378,11 +386,6 @@ p {
 .text-header {
     font-size: 50px;
     text-align: center;
-}
-
-h1 {
-    line-height: 120%;
-    margin-bottom: 30px;
 }
 
 .layer-default {
