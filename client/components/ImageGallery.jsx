@@ -117,7 +117,7 @@ class ImageGallery extends Component {
             };
         return (
             <div className="galleryWrapper"><br/>
-                <div className="galleryActiveImage" style={initialActiveImageStyle}></div>
+                <div className="galleryActiveImage" id="galleryImage" style={initialActiveImageStyle}></div>
                 <div className="galleryList">
                     {ourProductImages
                         .map(function (value) {
@@ -125,7 +125,7 @@ class ImageGallery extends Component {
                                 backgroundImage: `url(${value})`
                             };
                             return (
-                                <div key={value}  style={divStyle} onClick={setActiveImage} onMouseEnter={hideAllSiblings} onMouseLeave={showAllSiblings} className="galleryListImage link-style">
+                            <div key={value}  style={divStyle} onClick={setActiveImage}  onMouseEnter={hideAllSiblings} onMouseLeave={showAllSiblings} className="galleryListImage link-style">
                                     <div className="no-select" style={{display: 'none', backgroundImage: `url(${value.replace("/thumbs", "").replace(".png", "-min.png")})`}}/>
                                 </div>
                                 );

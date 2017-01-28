@@ -5,9 +5,13 @@ $image_max_scale: 2.0;
 .galleryActiveImage {
     width: 823px;
     height: 635px;
+    // width: 90%;
+    // height: 90%;
+    padding-top: 50.625%;
     background-size: cover;
     background-image: $url_g0;
-    overflow: hidden;
+    background-repeat: none;
+    //overflow: hidden;
     display: inline-block;
     margin: 2em;
 }
@@ -34,6 +38,9 @@ $image_max_scale: 2.0;
     animation-timing-function: ease;
     width: 82px;
     height: 63px;
+    // width: 9%;
+    // height: 11.25%;
+    padding-top: 6.328125%;
     background-size: cover;
     //background-image: $url_g1;
     overflow: hidden;
@@ -46,6 +53,9 @@ $image_max_scale: 2.0;
     }
 }
 
+// .galleryList {
+//     text-align: center;
+// }
 .galleryWrapper {
     font-size: 0;
     text-align: center;
