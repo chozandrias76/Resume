@@ -7,13 +7,13 @@ export default class IndexComponent extends Component {
 
     return (
       <section id="profile" className="section">
-        <div className="container"  style={{paddingLeft: 0}}>
+        <div className="container">
           <div className="row">
             <div
               className="col-md-12 headline bounceInLeft animated"
               style={{
               visibility: 'visible',
-              animationName: 'bounceInLeft'
+              animationName: 'bounceInLeft',
             }}>
               <h2>Colin Swenson-Healey</h2>
               <p>Designer. Programmer. Developer</p>
@@ -24,13 +24,14 @@ export default class IndexComponent extends Component {
               className="col-md-3 col-sm-6 hidden-xs bounceInLeft animated"
               style={{
               visibility: 'visible',
-              animationName: 'bounceInLeft'
+              animationName: 'bounceInLeft',
+              textAlign: 'center'
             }}>
               <img
                 className="avatar"
                 src="https://s3-us-west-2.amazonaws.com/web-dev-storage/Portrait.png"
                 style={{
-                height: '200px'
+                height: '200px',  
               }}
                 alt=""/>
             </div>

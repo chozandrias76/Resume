@@ -7,19 +7,16 @@ class MainFooterComponent extends Component {
         return (
             <div>
                 <section id="footer" className="section">
-                    <div className="container" style={{paddingLeft: 0}}>
+                    <div className="container" style={{paddingLeft: 45}}>
+                        {/*<div className="row">
+                            <div className="col-md-12 headline bounceInLeft animated"></div>
+                        </div>*/}
                         <div className="row">
                             <div
-                                className="col-md-12 headline bounceInLeft animated"
-                                ></div>
-                                </div>
-                                <div className="row">
-                            <div
                                 className="col-md-3 col-sm-6  bounceInUp animated"
-                                ></div>
-                                <div
-                                className="col-md-3 col-sm-6  bounceInUp animated"
-                                ></div>
+                                style={{
+                            }}></div>
+                            <div className="col-md-3 col-sm-6  bounceInUp animated"></div>
                             <div
                                 className="col-md-6  bounceInRight animated"
                                 style={{
@@ -28,7 +25,13 @@ class MainFooterComponent extends Component {
                             }}>
                                 <h2>Contact Me</h2>
                                 <p>Drop me a line!</p>
-                                <form id="contact-form" role="form" noValidate="" action="mailto:colin.p.swensonh@gmail.com" method="get" enctype="text/plain">
+                                <form
+                                    id="contact-form"
+                                    role="form"
+                                    noValidate=""
+                                    action="mailto:colin.p.swensonh@gmail.com"
+                                    method="get"
+                                    enctype="text/plain">
                                     <div className="form-group">
                                         <label className="sr-only" htmlFor="name">Name</label>
                                         <input
@@ -60,16 +63,15 @@ class MainFooterComponent extends Component {
                                             name="message"
                                             rows="7"
                                             placeholder="Your message"
-                                            required="">
-                                            </textarea>
+                                            required=""></textarea>
                                         <p className="help-block text-danger"></p>
                                     </div>
-                                     <button type="submit" name="submit" value="Send" className="btn btn-custom-1">
+                                    <button type="submit" name="submit" value="Send" className="btn btn-custom-1">
                                         <i className="fa fa-bullhorn icon-before"></i>
                                         Send it
                                     </button>
                                 </form>
-                               
+
                                 <div id="contact-response"></div>
 
                             </div>
