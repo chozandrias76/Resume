@@ -61,7 +61,7 @@ export default class IndexComponent extends Component {
                 <div className="widget-social" lv45phk="" hidden="">
 
                   <a href="https://www.facebook.com/swensonhealeyc">
-                    <i className="fa fa-facebook fa-fw btn btn-round btn-clear btn-facebook"></i>
+                    <i className="fa fa-facebook btn btn-round btn-clear btn-facebook"></i>
                   </a>
 
                   <a href="https://github.com/chozandrias76/">
