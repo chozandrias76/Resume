@@ -1,7 +1,7 @@
 {
     "name": "colins-resume-website",
     "version": "2.0.0",
-    "description": "The Resume website for Colin Swenson-Healey",
+    "description": "Colin Swenson-Healey | Designer | Programmer | Tinkerer",
     "main": "index.js",
     "scripts": {
         "start": "node index",
