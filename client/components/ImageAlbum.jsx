@@ -12,13 +12,11 @@ function ImageObject(props) {
   return (
     <Link to={{pathname: '/projects', query: {project: props.value.name}}}>
     <div className="cover-image" id={props.value.name} style={divStyle}>
-    
       <div className="overlay avoid-clicks">
         <span className="text-overlay no-select avoid-clicks">
           {props.value.name}
         </span>
       </div>
-      
     </div>
     </Link>
   );
