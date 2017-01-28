@@ -94,7 +94,7 @@ class ParallaxComponent extends Component {
           </div>
 
         );
-      case true: <div id="parallax-area-mobile"/>
+      case true: return(<div id="parallax-area-mobile"/>)
     }
   }
 }
