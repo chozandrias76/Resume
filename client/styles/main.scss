@@ -358,8 +358,10 @@ span {
 }
 
 #parallax-area-mobile {
-    background: $url_d no-repeat center bottom/cover;
-    height: 320px;
+    background: $url_d;
+    overflow: hidden;
+    position: relative;
+    //height: 320px;
 }
 
 #first-section {

@@ -87,7 +87,7 @@ componentDidMount(){
           </div>
 
         );
-      case true: return(<div id="parallax-area-mobile"/>)
+      case true: return(<div id="parallax-area-mobile" style={{height: `${window.outerHeight - 175}`}}/>)
     }
   }
 }
