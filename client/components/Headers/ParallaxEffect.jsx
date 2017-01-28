@@ -47,12 +47,13 @@ window.mobilecheck = function () {
   };
 
 class ParallaxComponent extends Component {
-
+componentDidMount(){
+}
   render() {
     switch (window.mobilecheck()) {
       case false: 
         return (
-          <div id="parallax-area" style={{height: 'window.outerHeight - 175'}}>
+          <div id="parallax-area" style={{height: `${window.outerHeight - 175}`}}>
             <div
               crossOrigin
               className="layer-default layer"

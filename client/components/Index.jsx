@@ -7,11 +7,8 @@ export default class IndexComponent extends Component {
 
     return (
       <section id="profile" className="section">
-
-        <div className="container">
-
+        <div className="container"  style={{paddingLeft: 0}}>
           <div className="row">
-
             <div
               className="col-md-12 headline bounceInLeft animated"
               style={{
@@ -21,7 +18,8 @@ export default class IndexComponent extends Component {
               <h2>Colin Swenson-Healey</h2>
               <p>Designer. Programmer. Developer</p>
             </div>
-
+            </div>
+            <div className="row">
             <div
               className="col-md-3 col-sm-6 hidden-xs bounceInLeft animated"
               style={{

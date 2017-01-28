@@ -7,27 +7,21 @@ class MainFooterComponent extends Component {
         return (
             <div>
                 <section id="footer" className="section">
-
-                    <div className="container">
-
+                    <div className="container" style={{paddingLeft: 0}}>
                         <div className="row">
-
                             <div
-                                className="col-md-12 headline wow bounceInLeft animated"
-                                style={{
-                                visibility: 'visible',
-                                animationName: 'bounceInLeft'
-                            }}></div>
-
+                                className="col-md-12 headline bounceInLeft animated"
+                                ></div>
+                                </div>
+                                <div className="row">
                             <div
-                                className="col-md-6 wow bounceInUp animated"
-                                style={{
-                                visibility: 'visible',
-                                animationName: 'bounceInUp'
-                            }}></div>
-
+                                className="col-md-3 col-sm-6  bounceInUp animated"
+                                ></div>
+                                <div
+                                className="col-md-3 col-sm-6  bounceInUp animated"
+                                ></div>
                             <div
-                                className="col-md-6 wow bounceInRight animated"
+                                className="col-md-6  bounceInRight animated"
                                 style={{
                                 visibility: 'visible',
                                 animationName: 'bounceInRight'
