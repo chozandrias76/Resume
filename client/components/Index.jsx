@@ -13,10 +13,10 @@ export default class IndexComponent extends Component {
           <div className="row">
 
             <div
-              className="col-md-12 headline bounceInDown animated"
+              className="col-md-12 headline bounceInLeft animated"
               style={{
               visibility: 'visible',
-              animationName: 'bounceInDown'
+              animationName: 'bounceInLeft'
             }}>
               <h2>Colin Swenson-Healey</h2>
               <p>Designer. Programmer. Developer</p>
@@ -38,7 +38,7 @@ export default class IndexComponent extends Component {
             </div>
 
             <div
-              className="col-md-3 col-sm-6 wow bounceInUp animated"
+              className="col-md-3 col-sm-6 wow bounceInLeft animated"
               style={{
               visibility: 'visible',
               animationName: 'bounceInUp'
@@ -60,19 +60,19 @@ export default class IndexComponent extends Component {
                 <h3>Social</h3>
                 <div className="widget-social" lv45phk="" hidden="">
 
-                  <a href="#">
+                  <a href="https://www.facebook.com/swensonhealeyc">
                     <i className="fa fa-facebook fa-fw btn btn-round btn-clear btn-facebook"></i>
                   </a>
 
-                  <a href="#">
+                  <a href="https://github.com/chozandrias76/">
                     <i className="fa fa-github-alt btn btn-round btn-clear btn-github"></i>
                   </a>
 
-                  <a href="#">
+                  <a href="https://twitter.com/xenos76">
                     <i className="fa fa-twitter btn btn-round btn-clear btn-twitter"></i>
                   </a>
 
-                  <a href="#">
+                  <a href="https://plus.google.com/u/0/116426537740453446298">
                     <i className="fa fa-google-plus btn btn-round btn-clear btn-google"></i>
                   </a>
 
