@@ -27,7 +27,7 @@ class ImageAlbum extends Component {
   render() {
     const imageObjects = this.props.imageObjects;
     return (
-      <div className="album-container">
+      <div className="album-container wow fadeIn">
         {imageObjects.map((imageObject) => <ImageObject key={imageObject.name} value={imageObject}/>)}
       </div>
     );
