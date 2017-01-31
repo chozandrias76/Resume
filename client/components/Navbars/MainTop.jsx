@@ -20,13 +20,13 @@ class TopNavbarComponent extends Component {
           <ul className="nav navbar-nav navbar-right">
 
             <li>
-              <a className="link-style" onClick={()=> browserHistory.push('projects')}>Projects</a>
+              <a className="link-style" href="#content" onClick={()=> browserHistory.push('projects')}>Projects</a>
             </li>
             <li>
               <a className="link-style" onClick={()=> browserHistory.push('blog')}>Blog</a>
             </li>
             <li>
-              <a className="link-style" onClick={()=> browserHistory.push('about')}>About Me</a>
+              <a className="link-style" href="#content" onClick={()=> browserHistory.push('about')}>About Me</a>
             </li>
           </ul>
         </div>
