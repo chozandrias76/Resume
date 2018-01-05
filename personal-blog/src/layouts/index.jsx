@@ -22,7 +22,7 @@ const Header = () => (
     >
       <h1 style={{ margin: 0, textAlign: 'center', fontSize: '18px' }}>
         <Link
-          href="/"
+          to="/"
           style={{
             color: 'black',
             textDecoration: 'none',

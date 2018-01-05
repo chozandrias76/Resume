@@ -3,6 +3,7 @@ import { Link, Router, browserHistory, Route, withRouter } from 'react-router';
 import { render } from 'react-dom';
 import Projects from 'components/Projects';
 
+
 class TopNavbarComponent extends Component {
   getLogo() {
 
@@ -26,8 +27,8 @@ class TopNavbarComponent extends Component {
               <a className="link-style" href="#content" onClick={() => browserHistory.push('projects')}>Projects</a>
             </li>
             <li>
-              {/* <a className="link-style" onClick={()=> browserHistory.push('blog')}>Blog</a> */}
-              <a className="link-style" href="http://localhost:8000/">Blog</a>
+              <a className="link-style" href="/blog" onClick={() => browserHistory.push('blog')}>Blog</a>
+              {/* <a className="link-style" href="http://localhost:8000/">Blog</a> */}
 
             </li>
             <li>

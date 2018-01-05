@@ -1,7 +1,7 @@
 ---
 path: "/another-one"
 date: "2017-07-12T17:12:33.962Z"
-title: "My Second Gatsby Post"
+title: "An Example Post"
 ---
 # Live demo
 
@@ -19,7 +19,7 @@ Changes are automatically rendered as you type.
 </blockquote>
 
 ## How about some code?
-```js
+```jsx
 var React = require('react');
 var Markdown = require('react-markdown');
 
