@@ -1,13 +1,16 @@
 * {
-  background: #f5f5f5;
-  color: black;
+  background-color: #4d4c4c;
+  color: #ede0d5;
 }
 html {
   height: 100%;
+  
 }
 body {
   height: 100%;
   /* border: 5px solid #ffdb3a; */
+  background-color: #383737;
+  
 }
 h1 {
   font-size: 1.5rem;

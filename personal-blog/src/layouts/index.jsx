@@ -9,7 +9,6 @@ import './index.css';
 const Header = () => (
   <div
     style={{
-      background: '#f5f5f5',
       marginBottom: '3rem',
       borderBottom: '2px solid #e6e6e6',
     }}
@@ -29,7 +28,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          CodeStack
+          SealedMinds
         </Link>
       </h1>
     </div>
@@ -52,7 +51,7 @@ const Sidebar = props => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="The blog of Colin Swenson-Healey"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
@@ -89,7 +88,7 @@ const TemplateWrapper = ({ children }) => (
             <div
               style={{
                 margin: '0 auto',
-                maxWidth: 980,
+                maxWidth: 1000,
                 display: 'flex',
                 flexDirection: 'row',
                 justifyContent: 'space-between',
