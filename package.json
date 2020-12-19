@@ -85,7 +85,7 @@
     "babel-helper-regex": "6.18.0",
     "babel-helper-remap-async-to-generator": "6.20.3",
     "babel-helper-replace-supers": "6.18.0",
-    "babel-helpers": "6.16.0",
+    "babel-helpers": "6.24.1",
     "babel-jest": "6.0.1",
     "babel-loader": "6.2.1",
     "babel-messages": "6.8.0",
