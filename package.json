@@ -76,7 +76,7 @@
     "babel-helper-builder-react-jsx": "6.21.1",
     "babel-helper-call-delegate": "6.18.0",
     "babel-helper-define-map": "6.18.0",
-    "babel-helper-explode-assignable-expression": "6.18.0",
+    "babel-helper-explode-assignable-expression": "6.24.1",
     "babel-helper-explode-class": "6.18.0",
     "babel-helper-function-name": "6.18.0",
     "babel-helper-get-function-arity": "6.18.0",
