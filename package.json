@@ -292,7 +292,7 @@
     "forwarded": "0.1.0",
     "fresh": "0.3.0",
     "fs.realpath": "1.0.0",
-    "fstream": "1.0.10",
+    "fstream": "1.0.12",
     "function-bind": "1.1.0",
     "gauge": "2.6.0",
     "gaze": "0.5.2",
