@@ -4,8 +4,8 @@ updates:
   - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: live
-    open-pull-requests-limit: 10
+      interval: "daily"
+    open-pull-requests-limit: 100
     reviewers:
       - chozandrias76
     labels:
