@@ -440,7 +440,7 @@
     "minimist": "0.0.8",
     "mkdirp": "0.5.1",
     "ms": "0.7.1",
-    "nan": "2.5.0",
+    "nan": "2.14.2",
     "negotiator": "0.6.1",
     "node-gyp": "3.4.0",
     "node-haste": "1.2.8",
