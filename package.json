@@ -624,7 +624,7 @@
     "tapable": "0.1.10",
     "tar": "2.2.1",
     "through": "2.3.8",
-    "timers-browserify": "1.4.2",
+    "timers-browserify": "2.0.12",
     "tmpl": "1.0.4",
     "to-fast-properties": "1.0.2",
     "tough-cookie": "2.2.2",
