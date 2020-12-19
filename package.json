@@ -657,7 +657,7 @@
     "vary": "1.1.0",
     "vendors": "1.0.1",
     "verror": "1.3.6",
-    "vm-browserify": "0.0.4",
+    "vm-browserify": "1.1.2",
     "walker": "1.0.7",
     "warning": "3.0.0",
     "watch": "0.10.0",
