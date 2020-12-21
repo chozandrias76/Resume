@@ -73,7 +73,7 @@
     "babel-generator": "6.21.0",
     "babel-helper-bindify-decorators": "6.18.0",
     "babel-helper-builder-binary-assignment-operator-visitor": "6.18.0",
-    "babel-helper-builder-react-jsx": "6.21.1",
+    "babel-helper-builder-react-jsx": "6.26.0",
     "babel-helper-call-delegate": "6.18.0",
     "babel-helper-define-map": "6.18.0",
     "babel-helper-explode-assignable-expression": "6.24.1",
