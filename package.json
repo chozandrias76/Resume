@@ -622,7 +622,7 @@
     "svgo": "0.7.1",
     "symbol-tree": "3.2.1",
     "tapable": "0.1.10",
-    "tar": "2.2.1",
+    "tar": "6.0.5",
     "through": "2.3.8",
     "timers-browserify": "2.0.12",
     "tmpl": "1.0.4",
