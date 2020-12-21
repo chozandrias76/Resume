@@ -303,7 +303,7 @@
     "getpass": "0.1.6",
     "glob": "5.0.15",
     "glob-base": "0.3.0",
-    "glob-parent": "2.0.0",
+    "glob-parent": "5.1.1",
     "globals": "9.14.0",
     "globule": "0.1.0",
     "graceful-fs": "4.2.4",
