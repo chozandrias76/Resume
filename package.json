@@ -481,7 +481,7 @@
     "path-array": "1.0.1",
     "path-browserify": "0.0.0",
     "path-exists": "1.0.0",
-    "path-is-absolute": "1.0.1",
+    "path-is-absolute": "2.0.0",
     "path-to-regexp": "0.1.7",
     "path-type": "1.1.0",
     "pbkdf2-compat": "2.0.1",
