@@ -611,7 +611,7 @@
     "stream-browserify": "1.0.0",
     "stream-cache": "0.0.2",
     "strict-uri-encode": "1.1.0",
-    "string-width": "1.0.2",
+    "string-width": "4.2.0",
     "string_decoder": "0.10.31",
     "stringstream": "0.0.5",
     "strip-ansi": "3.0.1",
