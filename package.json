@@ -415,7 +415,7 @@
     "lodash.keysin": "3.0.8",
     "lodash.merge": "3.3.2",
     "lodash.restparam": "3.6.1",
-    "lodash.toplainobject": "3.0.0",
+    "lodash.toplainobject": "4.2.0",
     "lodash.words": "3.2.0",
     "log-driver": "1.2.4",
     "longest": "1.0.1",
