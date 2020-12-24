@@ -269,7 +269,7 @@
     "exec-sh": "0.2.0",
     "expand-brackets": "0.1.5",
     "expand-range": "1.8.2",
-    "express": "4.13.4",
+    "express": "4.17.1",
     "express-ejs-layouts": "2.0.0",
     "extend": "3.0.0",
     "extglob": "0.3.2",
