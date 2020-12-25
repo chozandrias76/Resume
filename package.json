@@ -539,7 +539,7 @@
     "query-string": "4.2.3",
     "querystring": "0.2.0",
     "querystring-es3": "0.2.1",
-    "querystringify": "0.0.4",
+    "querystringify": "2.2.0",
     "randomatic": "1.1.6",
     "range-parser": "1.0.3",
     "react": "0.14.6",
