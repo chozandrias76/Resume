@@ -83,7 +83,7 @@
     "babel-helper-hoist-variables": "6.18.0",
     "babel-helper-optimise-call-expression": "6.18.0",
     "babel-helper-regex": "6.18.0",
-    "babel-helper-remap-async-to-generator": "6.20.3",
+    "babel-helper-remap-async-to-generator": "6.24.1",
     "babel-helper-replace-supers": "6.18.0",
     "babel-helpers": "6.24.1",
     "babel-jest": "6.0.1",
