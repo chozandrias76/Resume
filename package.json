@@ -411,7 +411,7 @@
     "lodash.isarray": "3.0.4",
     "lodash.isplainobject": "3.2.0",
     "lodash.istypedarray": "3.0.6",
-    "lodash.keys": "3.1.2",
+    "lodash.keys": "4.2.0",
     "lodash.keysin": "3.0.8",
     "lodash.merge": "3.3.2",
     "lodash.restparam": "3.6.1",
