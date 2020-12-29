@@ -245,7 +245,7 @@
     "diff": "2.2.3",
     "dom-helpers": "2.4.0",
     "domain-browser": "1.1.7",
-    "ecc-jsbn": "0.1.1",
+    "ecc-jsbn": "0.2.0",
     "ee-first": "1.1.1",
     "ejs": "2.4.1",
     "emojis-list": "2.1.0",
