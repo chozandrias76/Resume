@@ -300,7 +300,7 @@
     "generate-object-property": "1.2.0",
     "get-caller-file": "1.0.2",
     "get-stdin": "4.0.1",
-    "getpass": "0.1.6",
+    "getpass": "0.1.7",
     "glob": "5.0.15",
     "glob-base": "0.3.0",
     "glob-parent": "5.1.1",
