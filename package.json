@@ -261,7 +261,7 @@
     "escodegen": "1.7.1",
     "esprima-fb": "15001.1.0-dev-harmony-fb",
     "estraverse": "1.9.3",
-    "esutils": "2.0.2",
+    "esutils": "2.0.3",
     "etag": "1.7.0",
     "eventemitter3": "1.2.0",
     "events": "1.1.1",
