@@ -265,7 +265,7 @@
     "etag": "1.7.0",
     "eventemitter3": "1.2.0",
     "events": "1.1.1",
-    "eventsource": "0.1.6",
+    "eventsource": "1.0.7",
     "exec-sh": "0.2.0",
     "expand-brackets": "0.1.5",
     "expand-range": "1.8.2",
