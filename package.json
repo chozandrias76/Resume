@@ -518,7 +518,7 @@
     "postcss-reduce-transforms": "1.0.4",
     "postcss-safe-parser": "1.0.7",
     "postcss-selector-parser": "2.2.2",
-    "postcss-svgo": "2.1.6",
+    "postcss-svgo": "4.0.2",
     "postcss-unique-selectors": "2.0.2",
     "postcss-value-parser": "3.3.0",
     "postcss-zindex": "2.2.0",
