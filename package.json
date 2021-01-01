@@ -193,7 +193,7 @@
     "color-string": "0.3.0",
     "colormin": "1.1.2",
     "colors": "1.1.2",
-    "combined-stream": "1.0.5",
+    "combined-stream": "1.0.8",
     "commander": "2.9.0",
     "commoner": "0.10.8",
     "components": "0.1.0",
