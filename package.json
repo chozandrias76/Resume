@@ -200,7 +200,7 @@
     "compressible": "2.0.9",
     "compression": "1.6.1",
     "concat-map": "0.0.1",
-    "concat-stream": "1.6.0",
+    "concat-stream": "2.0.0",
     "config-chain": "1.1.11",
     "connect-history-api-fallback": "1.1.0",
     "console-browserify": "1.1.0",
