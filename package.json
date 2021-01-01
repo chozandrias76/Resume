@@ -535,7 +535,7 @@
     "pseudomap": "1.0.2",
     "punycode": "1.4.1",
     "q": "1.4.1",
-    "qs": "4.0.0",
+    "qs": "6.9.4",
     "query-string": "4.2.3",
     "querystring": "0.2.0",
     "querystring-es3": "0.2.1",
