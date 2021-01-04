@@ -335,7 +335,7 @@
     "inflight": "1.0.6",
     "inherits": "2.0.4",
     "ini": "2.0.0",
-    "interpret": "0.6.6",
+    "interpret": "2.2.0",
     "invariant": "2.2.2",
     "invert-kv": "1.0.0",
     "ipaddr.js": "1.0.5",
