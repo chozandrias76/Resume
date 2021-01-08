@@ -387,7 +387,7 @@
     "kind-of": "3.1.0",
     "lazy-cache": "1.0.4",
     "lcid": "1.0.0",
-    "lcov-parse": "0.0.6",
+    "lcov-parse": "1.0.0",
     "levn": "0.2.5",
     "load-json-file": "1.1.0",
     "loader-utils": "0.2.16",
