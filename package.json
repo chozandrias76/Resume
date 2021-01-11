@@ -651,7 +651,7 @@
     "url-parse": "1.1.7",
     "util": "0.10.3",
     "util-deprecate": "1.0.2",
-    "utils-merge": "1.0.0",
+    "utils-merge": "1.0.1",
     "uuid": "2.0.3",
     "validate-npm-package-license": "3.0.4",
     "vary": "1.1.0",
