@@ -293,7 +293,7 @@
     "fresh": "0.3.0",
     "fs.realpath": "1.0.0",
     "fstream": "1.0.12",
-    "function-bind": "1.1.0",
+    "function-bind": "1.1.1",
     "gauge": "2.6.0",
     "gaze": "0.5.2",
     "generate-function": "2.0.0",
