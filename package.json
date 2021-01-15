@@ -563,7 +563,7 @@
     "regenerate": "1.3.2",
     "regenerator-runtime": "0.10.1",
     "regenerator-transform": "0.14.5",
-    "regex-cache": "0.4.3",
+    "regex-cache": "0.4.4",
     "regexpu-core": "4.7.1",
     "regjsgen": "0.5.2",
     "regjsparser": "0.1.5",
