@@ -263,7 +263,7 @@
     "estraverse": "1.9.3",
     "esutils": "2.0.3",
     "etag": "1.7.0",
-    "eventemitter3": "1.2.0",
+    "eventemitter3": "4.0.7",
     "events": "1.1.1",
     "eventsource": "1.0.7",
     "exec-sh": "0.2.0",
