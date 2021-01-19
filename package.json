@@ -659,7 +659,7 @@
     "verror": "1.10.0",
     "vm-browserify": "1.1.2",
     "walker": "1.0.7",
-    "warning": "3.0.0",
+    "warning": "4.0.3",
     "watch": "0.10.0",
     "watchpack": "2.1.0",
     "webidl-conversions": "2.0.1",
