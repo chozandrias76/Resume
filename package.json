@@ -353,7 +353,7 @@
     "is-glob": "2.0.1",
     "is-my-json-valid": "2.15.0",
     "is-number": "2.1.0",
-    "is-plain-obj": "1.1.0",
+    "is-plain-obj": "3.0.0",
     "is-posix-bracket": "0.1.1",
     "is-primitive": "3.0.1",
     "is-property": "1.0.2",
