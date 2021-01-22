@@ -327,7 +327,7 @@
     "http-signature": "1.1.1",
     "https-browserify": "1.0.0",
     "iconv-lite": "0.6.2",
-    "icss-replace-symbols": "1.0.2",
+    "icss-replace-symbols": "1.1.0",
     "ieee754": "1.1.8",
     "indent-string": "2.1.0",
     "indexes-of": "1.0.1",
