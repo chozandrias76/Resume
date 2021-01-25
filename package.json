@@ -462,7 +462,7 @@
     "object-assign": "2.1.1",
     "object.omit": "2.0.1",
     "on-finished": "2.3.0",
-    "on-headers": "1.0.1",
+    "on-headers": "1.0.2",
     "once": "1.4.0",
     "optimist": "0.6.1",
     "optionator": "0.5.0",
