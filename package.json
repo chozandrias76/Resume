@@ -598,7 +598,7 @@
     "sockjs": "0.3.21",
     "sockjs-client": "1.5.0",
     "sort-keys": "1.1.2",
-    "source-list-map": "0.1.7",
+    "source-list-map": "2.0.1",
     "source-map": "0.4.4",
     "source-map-support": "0.4.8",
     "spawn-sync": "1.0.15",
