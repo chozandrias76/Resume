@@ -484,7 +484,7 @@
     "path-is-absolute": "2.0.0",
     "path-to-regexp": "0.1.7",
     "path-type": "1.1.0",
-    "pbkdf2-compat": "2.0.1",
+    "pbkdf2-compat": "4.0.0",
     "pify": "2.3.0",
     "pinkie": "2.0.4",
     "pinkie-promise": "2.0.1",
