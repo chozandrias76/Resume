@@ -584,7 +584,7 @@
     "sax": "1.2.1",
     "semver": "5.3.0",
     "send": "0.13.1",
-    "serve-index": "1.8.0",
+    "serve-index": "1.9.1",
     "serve-static": "1.10.3",
     "set-blocking": "2.0.0",
     "set-immediate-shim": "1.0.1",
