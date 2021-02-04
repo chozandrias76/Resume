@@ -585,7 +585,7 @@
     "semver": "5.3.0",
     "send": "0.13.1",
     "serve-index": "1.9.1",
-    "serve-static": "1.10.3",
+    "serve-static": "1.14.1",
     "set-blocking": "2.0.0",
     "set-immediate-shim": "1.0.1",
     "setprototypeof": "1.2.0",
