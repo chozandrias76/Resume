@@ -506,7 +506,7 @@
     "postcss-minify-gradients": "1.0.5",
     "postcss-minify-params": "1.2.2",
     "postcss-minify-selectors": "2.1.1",
-    "postcss-modules-extract-imports": "1.0.1",
+    "postcss-modules-extract-imports": "3.0.0",
     "postcss-modules-local-by-default": "1.1.1",
     "postcss-modules-scope": "1.0.2",
     "postcss-modules-values": "1.2.2",
