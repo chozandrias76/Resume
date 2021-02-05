@@ -197,7 +197,7 @@
     "commander": "2.9.0",
     "commoner": "0.10.8",
     "components": "0.1.0",
-    "compressible": "2.0.9",
+    "compressible": "2.0.18",
     "compression": "1.7.4",
     "concat-map": "0.0.1",
     "concat-stream": "2.0.0",
