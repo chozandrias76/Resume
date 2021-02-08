@@ -258,7 +258,7 @@
     "es6-symbol": "3.1.0",
     "escape-html": "1.0.3",
     "escape-string-regexp": "1.0.5",
-    "escodegen": "1.7.1",
+    "escodegen": "2.0.0",
     "esprima-fb": "15001.1.0-dev-harmony-fb",
     "estraverse": "1.9.3",
     "esutils": "2.0.3",
