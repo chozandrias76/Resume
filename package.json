@@ -569,7 +569,7 @@
     "regjsparser": "0.6.6",
     "repeat-element": "1.1.2",
     "repeat-string": "1.6.1",
-    "repeating": "2.0.1",
+    "repeating": "3.0.0",
     "request": "2.88.2",
     "require-directory": "2.1.1",
     "require-main-filename": "1.0.1",
