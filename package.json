@@ -648,7 +648,7 @@
     "uniqs": "2.0.0",
     "unpipe": "1.0.0",
     "url": "0.10.3",
-    "url-parse": "1.1.7",
+    "url-parse": "1.4.7",
     "util": "0.10.3",
     "util-deprecate": "1.0.2",
     "utils-merge": "1.0.1",
