@@ -312,7 +312,7 @@
     "har-validator": "2.0.6",
     "has": "1.0.1",
     "has-ansi": "2.0.0",
-    "has-color": "0.1.7",
+    "has-color": "0.2.0",
     "has-flag": "1.0.0",
     "has-unicode": "2.0.1",
     "hawk": "3.1.3",
