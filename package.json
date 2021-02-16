@@ -182,7 +182,7 @@
     "chokidar": "1.6.1",
     "clap": "2.0.1",
     "classnames": "2.2.5",
-    "cli-table": "0.0.2",
+    "cli-table": "0.3.4",
     "cliui": "7.0.4",
     "clone": "1.0.2",
     "coa": "2.0.2",
