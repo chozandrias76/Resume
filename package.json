@@ -154,7 +154,7 @@
     "babel-types": "6.21.0",
     "babylon": "6.18.0",
     "balanced-match": "1.0.0",
-    "base62": "1.1.2",
+    "base62": "2.0.1",
     "base64-js": "1.5.1",
     "batch": "0.5.3",
     "bcrypt-pbkdf": "1.0.0",
