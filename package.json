@@ -537,7 +537,7 @@
     "q": "1.4.1",
     "qs": "6.9.6",
     "query-string": "4.2.3",
-    "querystring": "0.2.0",
+    "querystring": "0.2.1",
     "querystring-es3": "0.2.1",
     "querystringify": "2.2.0",
     "randomatic": "1.1.6",
