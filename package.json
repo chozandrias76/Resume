@@ -445,7 +445,7 @@
     "node-gyp": "3.4.0",
     "node-haste": "1.2.8",
     "node-int64": "0.4.0",
-    "node-libs-browser": "0.6.0",
+    "node-libs-browser": "2.2.1",
     "node-sass": "3.4.2",
     "node-uuid": "1.4.7",
     "nopt": "3.0.6",
