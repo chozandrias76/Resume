@@ -530,7 +530,7 @@
     "process-nextick-args": "1.0.7",
     "promise": "7.1.1",
     "proto-list": "1.2.4",
-    "proxy-addr": "1.0.10",
+    "proxy-addr": "2.0.6",
     "prr": "0.0.0",
     "pseudomap": "1.0.2",
     "punycode": "1.4.1",
