@@ -480,7 +480,7 @@
     "parseurl": "1.3.3",
     "path-array": "1.0.1",
     "path-browserify": "1.0.1",
-    "path-exists": "1.0.0",
+    "path-exists": "4.0.0",
     "path-is-absolute": "2.0.0",
     "path-to-regexp": "0.1.7",
     "path-type": "1.1.0",
