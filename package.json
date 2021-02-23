@@ -597,7 +597,7 @@
     "sntp": "3.0.2",
     "sockjs": "0.3.21",
     "sockjs-client": "1.5.0",
-    "sort-keys": "1.1.2",
+    "sort-keys": "4.2.0",
     "source-list-map": "2.0.1",
     "source-map": "0.4.4",
     "source-map-support": "0.4.8",
