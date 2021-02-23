@@ -341,7 +341,7 @@
     "ipaddr.js": "2.0.0",
     "is-absolute-url": "2.1.0",
     "is-arrayish": "0.3.2",
-    "is-binary-path": "1.0.1",
+    "is-binary-path": "2.1.0",
     "is-buffer": "2.0.5",
     "is-builtin-module": "1.0.0",
     "is-dotfile": "2.0.0",
