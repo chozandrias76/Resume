@@ -271,7 +271,7 @@
     "expand-range": "2.0.2",
     "express": "4.17.1",
     "express-ejs-layouts": "2.0.0",
-    "extend": "3.0.0",
+    "extend": "3.0.2",
     "extglob": "3.0.0",
     "extsprintf": "1.0.2",
     "fast-levenshtein": "1.0.7",
