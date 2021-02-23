@@ -483,7 +483,7 @@
     "path-exists": "4.0.0",
     "path-is-absolute": "2.0.0",
     "path-to-regexp": "0.1.7",
-    "path-type": "1.1.0",
+    "path-type": "5.0.0",
     "pbkdf2-compat": "4.0.0",
     "pify": "5.0.0",
     "pinkie": "2.0.4",
