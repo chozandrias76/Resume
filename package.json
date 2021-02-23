@@ -71,7 +71,7 @@
     "babel-code-frame": "6.26.0",
     "babel-core": "6.4.5",
     "babel-generator": "6.21.0",
-    "babel-helper-bindify-decorators": "6.18.0",
+    "babel-helper-bindify-decorators": "6.24.1",
     "babel-helper-builder-binary-assignment-operator-visitor": "6.24.1",
     "babel-helper-builder-react-jsx": "6.26.0",
     "babel-helper-call-delegate": "6.18.0",
