@@ -561,7 +561,7 @@
     "reduce-css-calc": "2.1.8",
     "reduce-function-call": "1.0.2",
     "regenerate": "1.4.2",
-    "regenerator-runtime": "0.10.1",
+    "regenerator-runtime": "0.13.7",
     "regenerator-transform": "0.14.5",
     "regex-cache": "0.4.4",
     "regexpu-core": "4.7.1",
