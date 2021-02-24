@@ -388,7 +388,7 @@
     "lazy-cache": "1.0.4",
     "lcid": "1.0.0",
     "lcov-parse": "1.0.0",
-    "levn": "0.2.5",
+    "levn": "0.4.1",
     "load-json-file": "6.2.0",
     "loader-utils": "0.2.16",
     "lodash": "3.10.1",
