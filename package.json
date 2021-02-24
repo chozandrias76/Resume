@@ -55,7 +55,7 @@
     "array-flatten": "3.0.0",
     "array-index": "1.0.0",
     "array-unique": "0.2.1",
-    "arrify": "1.0.1",
+    "arrify": "2.0.1",
     "asap": "2.0.6",
     "asn1": "0.2.4",
     "assert": "2.0.0",
