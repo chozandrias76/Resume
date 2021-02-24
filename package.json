@@ -305,7 +305,7 @@
     "glob-base": "0.3.0",
     "glob-parent": "5.1.1",
     "globals": "13.6.0",
-    "globule": "0.1.0",
+    "globule": "1.3.2",
     "graceful-fs": "4.2.6",
     "graceful-readlink": "1.0.1",
     "handlebars": "4.0.6",
