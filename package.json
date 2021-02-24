@@ -336,7 +336,7 @@
     "inherits": "2.0.4",
     "ini": "2.0.0",
     "interpret": "2.2.0",
-    "invariant": "2.2.2",
+    "invariant": "2.2.4",
     "invert-kv": "1.0.0",
     "ipaddr.js": "2.0.0",
     "is-absolute-url": "2.1.0",
