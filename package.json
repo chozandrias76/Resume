@@ -277,7 +277,7 @@
     "fast-levenshtein": "1.0.7",
     "fastparse": "1.1.2",
     "faye-websocket": "0.10.0",
-    "fb-watchman": "1.9.0",
+    "fb-watchman": "2.0.1",
     "fbjs": "3.0.0",
     "filename-regex": "2.0.0",
     "fileset": "2.0.3",
