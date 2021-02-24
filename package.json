@@ -217,7 +217,7 @@
     "coveralls": "3.1.0",
     "cross-env": "1.0.7",
     "cross-spawn": "2.2.3",
-    "cross-spawn-async": "2.0.0",
+    "cross-spawn-async": "2.2.5",
     "cryptiles": "2.0.5",
     "crypto-browserify": "3.2.8",
     "css-color-names": "0.0.4",
