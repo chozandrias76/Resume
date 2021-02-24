@@ -660,7 +660,7 @@
     "vm-browserify": "1.1.2",
     "walker": "1.0.7",
     "warning": "4.0.3",
-    "watch": "0.10.0",
+    "watch": "1.0.2",
     "watchpack": "2.1.1",
     "webidl-conversions": "2.0.1",
     "webpack": "1.12.12",
