@@ -409,7 +409,7 @@
     "lodash.indexof": "4.0.5",
     "lodash.isarguments": "3.1.0",
     "lodash.isarray": "3.0.4",
-    "lodash.isplainobject": "3.2.0",
+    "lodash.isplainobject": "4.0.6",
     "lodash.istypedarray": "4.0.1",
     "lodash.keys": "4.2.0",
     "lodash.keysin": "3.0.8",
