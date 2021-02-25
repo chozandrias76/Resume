@@ -220,7 +220,7 @@
     "cross-spawn-async": "2.2.5",
     "cryptiles": "2.0.5",
     "crypto-browserify": "3.12.0",
-    "css-color-names": "0.0.4",
+    "css-color-names": "1.0.1",
     "css-loader": "0.23.1",
     "css-selector-tokenizer": "0.7.3",
     "cssesc": "3.0.0",
