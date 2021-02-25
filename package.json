@@ -536,7 +536,7 @@
     "punycode": "1.4.1",
     "q": "1.5.1",
     "qs": "6.9.6",
-    "query-string": "4.2.3",
+    "query-string": "6.14.0",
     "querystring": "0.2.1",
     "querystring-es3": "0.2.1",
     "querystringify": "2.2.0",
