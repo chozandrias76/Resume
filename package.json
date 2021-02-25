@@ -222,7 +222,7 @@
     "crypto-browserify": "3.12.0",
     "css-color-names": "0.0.4",
     "css-loader": "0.23.1",
-    "css-selector-tokenizer": "0.5.4",
+    "css-selector-tokenizer": "0.7.3",
     "cssesc": "3.0.0",
     "cssnano": "4.1.10",
     "csso": "4.2.0",
