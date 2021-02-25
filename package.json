@@ -223,7 +223,7 @@
     "css-color-names": "0.0.4",
     "css-loader": "0.23.1",
     "css-selector-tokenizer": "0.5.4",
-    "cssesc": "0.1.0",
+    "cssesc": "3.0.0",
     "cssnano": "4.1.10",
     "csso": "4.2.0",
     "cssom": "0.4.4",
