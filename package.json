@@ -418,7 +418,7 @@
     "lodash.toplainobject": "4.2.0",
     "lodash.words": "3.2.0",
     "log-driver": "1.2.7",
-    "longest": "1.0.1",
+    "longest": "2.0.1",
     "loose-envify": "1.4.0",
     "loud-rejection": "2.2.0",
     "lru-cache": "6.0.0",
