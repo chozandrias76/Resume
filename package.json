@@ -165,7 +165,7 @@
     "boom": "7.3.0",
     "bootstrap": "3.3.7",
     "brace-expansion": "2.0.0",
-    "braces": "1.8.5",
+    "braces": "3.0.2",
     "browserify-zlib": "0.2.0",
     "browserslist": "1.5.1",
     "bser": "2.1.1",
