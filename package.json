@@ -627,7 +627,7 @@
     "timers-browserify": "2.0.12",
     "tmpl": "1.0.4",
     "to-fast-properties": "1.0.2",
-    "tough-cookie": "2.2.2",
+    "tough-cookie": "4.0.0",
     "tr46": "0.0.3",
     "trim-newlines": "3.0.0",
     "tty-browserify": "0.0.1",
