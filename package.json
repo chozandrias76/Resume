@@ -310,7 +310,7 @@
     "graceful-readlink": "1.0.1",
     "handlebars": "4.7.7",
     "har-validator": "5.1.5",
-    "has": "1.0.1",
+    "has": "1.0.3",
     "has-ansi": "2.0.0",
     "has-color": "0.2.0",
     "has-flag": "4.0.0",
