@@ -601,7 +601,7 @@
     "source-list-map": "2.0.1",
     "source-map": "0.7.3",
     "source-map-support": "0.5.19",
-    "spawn-sync": "1.0.15",
+    "spawn-sync": "2.0.0",
     "spdx-correct": "1.0.2",
     "spdx-expression-parse": "3.0.1",
     "spdx-license-ids": "3.0.7",
