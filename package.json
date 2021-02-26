@@ -631,7 +631,7 @@
     "tr46": "0.0.3",
     "trim-newlines": "3.0.0",
     "tty-browserify": "0.0.1",
-    "tunnel-agent": "0.4.3",
+    "tunnel-agent": "0.6.0",
     "tweetnacl": "0.14.5",
     "type-check": "0.4.0",
     "type-is": "1.6.18",
