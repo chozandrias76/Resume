@@ -80,7 +80,7 @@
     "babel-helper-explode-class": "6.18.0",
     "babel-helper-function-name": "6.24.1",
     "babel-helper-get-function-arity": "6.24.1",
-    "babel-helper-hoist-variables": "6.18.0",
+    "babel-helper-hoist-variables": "6.24.1",
     "babel-helper-optimise-call-expression": "6.18.0",
     "babel-helper-regex": "6.26.0",
     "babel-helper-remap-async-to-generator": "6.24.1",
