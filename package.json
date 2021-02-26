@@ -493,7 +493,7 @@
     "postcss-colormin": "2.2.1",
     "postcss-convert-values": "2.6.0",
     "postcss-discard-comments": "4.0.2",
-    "postcss-discard-duplicates": "2.0.2",
+    "postcss-discard-duplicates": "4.0.2",
     "postcss-discard-empty": "4.0.1",
     "postcss-discard-overridden": "0.1.1",
     "postcss-discard-unused": "4.0.1",
