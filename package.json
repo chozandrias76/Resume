@@ -492,7 +492,7 @@
     "postcss-calc": "8.0.0",
     "postcss-colormin": "2.2.1",
     "postcss-convert-values": "2.6.0",
-    "postcss-discard-comments": "2.0.4",
+    "postcss-discard-comments": "4.0.2",
     "postcss-discard-duplicates": "2.0.2",
     "postcss-discard-empty": "2.1.0",
     "postcss-discard-overridden": "0.1.1",
