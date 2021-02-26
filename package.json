@@ -60,7 +60,7 @@
     "asn1": "0.2.4",
     "assert": "2.0.0",
     "assert-plus": "1.0.0",
-    "assets-webpack-plugin": "6.1.2",
+    "assets-webpack-plugin": "7.0.0",
     "ast-types": "0.14.2",
     "async": "3.2.0",
     "async-each": "1.0.3",
@@ -688,7 +688,7 @@
     "yargs-parser": "2.4.1"
   },
   "devDependencies": {
-    "assets-webpack-plugin": "6.1.2",
+    "assets-webpack-plugin": "7.0.0",
     "autoprefixer-loader": "3.2.0",
     "babel-core": "6.4.5",
     "babel-jest": "6.0.1",
