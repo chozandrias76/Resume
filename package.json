@@ -494,7 +494,7 @@
     "postcss-convert-values": "2.6.0",
     "postcss-discard-comments": "4.0.2",
     "postcss-discard-duplicates": "2.0.2",
-    "postcss-discard-empty": "2.1.0",
+    "postcss-discard-empty": "4.0.1",
     "postcss-discard-overridden": "0.1.1",
     "postcss-discard-unused": "4.0.1",
     "postcss-filter-plugins": "3.0.1",
