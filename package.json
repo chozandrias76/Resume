@@ -447,7 +447,7 @@
     "node-int64": "0.4.0",
     "node-libs-browser": "2.2.1",
     "node-sass": "3.4.2",
-    "node-uuid": "1.4.7",
+    "node-uuid": "1.4.8",
     "nopt": "5.0.0",
     "normalize-package-data": "3.0.0",
     "normalize-path": "3.0.0",
