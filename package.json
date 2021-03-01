@@ -504,7 +504,7 @@
     "postcss-message-helpers": "2.0.0",
     "postcss-minify-font-values": "4.0.2",
     "postcss-minify-gradients": "4.0.2",
-    "postcss-minify-params": "1.2.2",
+    "postcss-minify-params": "4.0.2",
     "postcss-minify-selectors": "2.1.1",
     "postcss-modules-extract-imports": "3.0.0",
     "postcss-modules-local-by-default": "4.0.0",
