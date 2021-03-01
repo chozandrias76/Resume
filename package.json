@@ -349,7 +349,7 @@
     "is-extendable": "1.0.1",
     "is-extglob": "2.1.1",
     "is-finite": "1.1.0",
-    "is-fullwidth-code-point": "1.0.0",
+    "is-fullwidth-code-point": "3.0.0",
     "is-glob": "4.0.1",
     "is-my-json-valid": "2.20.5",
     "is-number": "7.0.0",
