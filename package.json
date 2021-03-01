@@ -412,7 +412,7 @@
     "lodash.isplainobject": "4.0.6",
     "lodash.istypedarray": "4.0.1",
     "lodash.keys": "4.2.0",
-    "lodash.keysin": "3.0.8",
+    "lodash.keysin": "4.2.0",
     "lodash.merge": "4.6.2",
     "lodash.restparam": "3.6.1",
     "lodash.toplainobject": "4.2.0",
