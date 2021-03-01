@@ -273,7 +273,7 @@
     "express-ejs-layouts": "2.5.0",
     "extend": "3.0.2",
     "extglob": "3.0.0",
-    "extsprintf": "1.0.2",
+    "extsprintf": "1.4.0",
     "fast-levenshtein": "3.0.0",
     "fastparse": "1.1.2",
     "faye-websocket": "0.11.3",
