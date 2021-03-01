@@ -203,7 +203,7 @@
     "concat-stream": "2.0.0",
     "config-chain": "1.1.12",
     "connect-history-api-fallback": "1.1.0",
-    "console-browserify": "1.1.0",
+    "console-browserify": "1.2.0",
     "console-control-strings": "1.1.0",
     "constants-browserify": "1.0.0",
     "content-disposition": "0.5.3",
