@@ -319,7 +319,7 @@
     "history": "5.0.0",
     "hoek": "6.1.3",
     "home-or-tmp": "3.0.0",
-    "hosted-git-info": "2.1.5",
+    "hosted-git-info": "3.0.8",
     "html-comment-regex": "1.1.2",
     "http-browserify": "1.7.0",
     "http-errors": "1.8.0",
