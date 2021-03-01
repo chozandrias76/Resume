@@ -385,7 +385,7 @@
     "jstransform": "11.0.3",
     "keycode": "2.2.0",
     "kind-of": "6.0.3",
-    "lazy-cache": "1.0.4",
+    "lazy-cache": "2.0.2",
     "lcid": "3.1.1",
     "lcov-parse": "1.0.0",
     "levn": "0.4.1",
