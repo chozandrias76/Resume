@@ -525,7 +525,7 @@
     "prelude-ls": "1.2.1",
     "prepend-http": "3.0.1",
     "preserve": "0.2.0",
-    "private": "0.1.6",
+    "private": "0.1.8",
     "process": "0.11.10",
     "process-nextick-args": "2.0.1",
     "promise": "8.1.0",
