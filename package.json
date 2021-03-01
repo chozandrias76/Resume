@@ -521,7 +521,7 @@
     "postcss-svgo": "4.0.2",
     "postcss-unique-selectors": "2.0.2",
     "postcss-value-parser": "4.1.0",
-    "postcss-zindex": "2.2.0",
+    "postcss-zindex": "4.0.1",
     "prelude-ls": "1.2.1",
     "prepend-http": "3.0.1",
     "preserve": "0.2.0",
