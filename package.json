@@ -607,7 +607,7 @@
     "spdx-license-ids": "3.0.7",
     "sprintf-js": "1.1.2",
     "sshpk": "1.16.1",
-    "statuses": "1.2.1",
+    "statuses": "2.0.1",
     "stream-browserify": "3.0.0",
     "stream-cache": "0.0.2",
     "strict-uri-encode": "2.0.0",
