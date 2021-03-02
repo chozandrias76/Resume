@@ -510,7 +510,7 @@
     "postcss-modules-local-by-default": "4.0.0",
     "postcss-modules-scope": "3.0.0",
     "postcss-modules-values": "4.0.0",
-    "postcss-normalize-charset": "1.1.1",
+    "postcss-normalize-charset": "4.0.1",
     "postcss-normalize-url": "4.0.1",
     "postcss-ordered-values": "4.1.2",
     "postcss-reduce-idents": "4.0.2",
