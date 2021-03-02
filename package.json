@@ -69,7 +69,7 @@
     "autoprefixer-loader": "3.2.0",
     "aws-sign2": "0.7.0",
     "babel-code-frame": "6.26.0",
-    "babel-core": "6.4.5",
+    "babel-core": "6.26.3",
     "babel-generator": "6.26.1",
     "babel-helper-bindify-decorators": "6.24.1",
     "babel-helper-builder-binary-assignment-operator-visitor": "6.24.1",
@@ -690,7 +690,7 @@
   "devDependencies": {
     "assets-webpack-plugin": "7.0.0",
     "autoprefixer-loader": "3.2.0",
-    "babel-core": "6.4.5",
+    "babel-core": "6.26.3",
     "babel-jest": "26.6.3",
     "babel-loader": "8.2.2",
     "babel-plugin-transform-runtime": "6.23.0",
