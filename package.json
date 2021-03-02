@@ -490,7 +490,7 @@
     "pinkie-promise": "2.0.1",
     "postcss": "8.2.6",
     "postcss-calc": "8.0.0",
-    "postcss-colormin": "2.2.1",
+    "postcss-colormin": "4.0.3",
     "postcss-convert-values": "4.0.1",
     "postcss-discard-comments": "4.0.2",
     "postcss-discard-duplicates": "4.0.2",
