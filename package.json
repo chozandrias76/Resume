@@ -35,7 +35,7 @@
   "homepage": "https://colin-resume.herokuapp.com/",
   "dependencies": {
     "Base64": "1.1.0",
-    "abab": "1.0.3",
+    "abab": "2.0.5",
     "abbrev": "1.1.1",
     "accepts": "1.3.7",
     "acorn": "8.0.5",
