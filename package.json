@@ -403,7 +403,7 @@
     "lodash._getnative": "3.9.1",
     "lodash._isiterateecall": "3.0.9",
     "lodash._root": "3.0.1",
-    "lodash.assign": "3.2.0",
+    "lodash.assign": "4.2.0",
     "lodash.camelcase": "4.3.0",
     "lodash.deburr": "4.1.0",
     "lodash.indexof": "4.0.5",
