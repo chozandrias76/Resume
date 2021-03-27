@@ -557,7 +557,7 @@
     "readable-stream": "3.6.0",
     "readdirp": "3.6.0",
     "recast": "0.20.4",
-    "redent": "1.0.0",
+    "redent": "3.0.0",
     "reduce-css-calc": "2.1.8",
     "reduce-function-call": "1.0.3",
     "regenerate": "1.4.2",
