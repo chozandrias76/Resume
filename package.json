@@ -266,7 +266,7 @@
     "eventemitter3": "4.0.7",
     "events": "3.3.0",
     "eventsource": "1.1.0",
-    "exec-sh": "0.3.6",
+    "exec-sh": "0.4.0",
     "expand-brackets": "4.0.0",
     "expand-range": "2.0.2",
     "express": "4.17.1",
