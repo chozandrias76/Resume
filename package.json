@@ -488,7 +488,7 @@
     "pify": "5.0.0",
     "pinkie": "2.0.4",
     "pinkie-promise": "2.0.1",
-    "postcss": "8.2.8",
+    "postcss": "8.2.9",
     "postcss-calc": "8.0.0",
     "postcss-colormin": "4.0.3",
     "postcss-convert-values": "4.0.1",
