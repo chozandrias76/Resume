@@ -1,102 +1,53 @@
-# 📦 webpack Boilerplate
+# React Webpack Typescript Starter
+> Minimal starter with hot module replacement (HMR) for rapid development.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-Sensible webpack 5 boilerplate using Babel, PostCSS and Sass with a hot dev server and an optimized production build.
+* **[React](https://facebook.github.io/react/)** (17.x)
+* **[Webpack](https://webpack.js.org/)** (5.x)
+* **[Typescript](https://www.typescriptlang.org/)** (4.x)
+* **[Hot Module Replacement (HMR)](https://webpack.js.org/concepts/hot-module-replacement/)** ([React Hot Loader](https://github.com/gaearon/react-hot-loader))
+* Production build script (Webpack)
+* Image loading/minification ([Image Webpack Loader](https://github.com/tcoopman/image-webpack-loader))
+* [SASS](http://sass-lang.com/) support
+* Code linting ([ESLint](https://github.com/eslint/eslint)) and formatting ([Prettier](https://github.com/prettier/prettier))
+* Test framework ([Jest](https://facebook.github.io/jest/))
 
 ## Installation
-
-Clone this repo and npm install.
-
-```bash
-npm i
-```
+1. Clone/download repo
+2. `yarn install` (or `npm install` for npm)
 
 ## Usage
+**Development**
 
-### Development server
+`yarn run start-dev`
 
-```bash
-npm start
-```
+* Build app continuously (HMR enabled)
+* App served @ `http://localhost:8080`
 
-You can view the development server at `localhost:8080`.
+**Production**
 
-### Production build
+`yarn run start-prod`
 
-```bash
-npm run build
-```
+* Build app once (HMR disabled) to `/dist/`
+* App served @ `http://localhost:3000`
 
-> Note: Install [http-server](https://www.npmjs.com/package/http-server) globally to deploy a simple server.
+---
 
-```bash
-npm i -g http-server
-```
+**All commands**
 
-You can view the deploy by creating a server in `dist`.
+Command | Description
+--- | ---
+`yarn run start-dev` | Build app continuously (HMR enabled) and serve @ `http://localhost:8080`
+`yarn run start-prod` | Build app once (HMR disabled) to `/dist/` and serve @ `http://localhost:3000`
+`yarn run build` | Build app to `/dist/`
+`yarn run test` | Run tests
+`yarn run lint` | Run linter
+`yarn run lint --fix` | Run linter and fix issues
+`yarn run start` | (alias of `yarn run start-dev`)
 
-```bash
-cd dist && http-server
-```
+**Note**: replace `yarn` with `npm` in `package.json` if you use npm.
 
-## Features
-
-- [webpack](https://webpack.js.org/)
-- [Babel](https://babeljs.io/)
-- [Sass](https://sass-lang.com/)
-- [PostCSS](https://postcss.org/)
-
-## Dependencies
-
-### webpack
-
-- [`webpack`](https://github.com/webpack/webpack) - Module and asset bundler.
-- [`webpack-cli`](https://github.com/webpack/webpack-cli) - Command line interface for webpack
-- [`webpack-dev-server`](https://github.com/webpack/webpack-dev-server) - Development server for webpack
-- [`webpack-merge`](https://github.com/survivejs/webpack-merge) - Simplify development/production configuration
-- [`cross-env`](https://github.com/kentcdodds/cross-env) - Cross platform configuration
-
-### Babel
-
-- [`@babel/core`](https://www.npmjs.com/package/@babel/core) - Transpile ES6+ to backwards compatible JavaScript
-- [`@babel/plugin-proposal-class-properties`](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) - Use properties directly on a class (an example Babel config)
-- [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env) - Smart defaults for Babel
-
-### Loaders
-
-- [`babel-loader`](https://webpack.js.org/loaders/babel-loader/) - Transpile files with Babel and webpack
-- [`sass-loader`](https://webpack.js.org/loaders/sass-loader/) - Load SCSS and compile to CSS
-  - [`node-sass`](https://github.com/sass/node-sass) - Node Sass
-- [`postcss-loader`](https://webpack.js.org/loaders/postcss-loader/) - Process CSS with PostCSS
-  - [`postcss-preset-env`](https://www.npmjs.com/package/postcss-preset-env) - Sensible defaults for PostCSS
-- [`css-loader`](https://webpack.js.org/loaders/css-loader/) - Resolve CSS imports
-- [`style-loader`](https://webpack.js.org/loaders/style-loader/) - Inject CSS into the DOM
-
-### Plugins
-
-- [`clean-webpack-plugin`](https://github.com/johnagan/clean-webpack-plugin) - Remove/clean build folders
-- [`copy-webpack-plugin`](https://github.com/webpack-contrib/copy-webpack-plugin) - Copy files to build directory
-- [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin) - Generate HTML files from template
-- [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
-- [`css-minimizer-webpack-plugin`](https://webpack.js.org/plugins/css-minimizer-webpack-plugin/) - Optimize and minimize CSS assets
-
-### Linters
-
-- [`eslint`](https://github.com/eslint/eslint) - Enforce styleguide across application
-- [`eslint-config-airbnb-base`](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) - Base styleguide to enforce rules
-- [`eslint-config-prettier`](https://github.com/prettier/eslint-config-prettier) - Implment prettier rules
-- [`eslint-plugin-import`](https://github.com/benmosher/eslint-plugin-import) - Implment import rules
-- [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier) - Dependency for prettier usage with ESLint
-- [`eslint-import-resolver-webpack`](https://github.com/benmosher/eslint-plugin-import/tree/master/resolvers/webpack) - Throw exceptions for import/export in webpack
-- [`eslint-webpack-plugin`](https://github.com/webpack-contrib/eslint-webpack-plugin) - ESLint configuration for webpack
-- [`prettier`](https://github.com/prettier/prettier) - Dependency for `prettier-webpack-plugin` plugin
-- [`prettier-webpack-plugin`](https://github.com/hawkins/prettier-webpack-plugin) - Prettier configuration for webpack
-
-## Author
-
-- [Tania Rascia](https://www.taniarascia.com)
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+## See also
+* [React Webpack Babel Starter](https://github.com/vikpe/react-webpack-babel-starter)
+* [Snowpack](https://github.com/snowpackjs/snowpack)
+* [Create React App](https://github.com/facebook/create-react-app)
+* [Isomorphic Webapp Starter](https://github.com/vikpe/isomorphic-webapp-starter)
