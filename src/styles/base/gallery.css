@@ -1,0 +1,88 @@
+.galleryActiveImage {
+  width: 823px;
+  height: 635px;
+
+  padding-top: 50.625%;
+  background-size: cover;
+  background-image: $url_g0;
+  background-repeat: none;
+
+  display: inline-block;
+  margin: 2em;
+}
+
+.fadeOutElem {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 0.1;
+}
+
+.fadeInElem {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 1;
+}
+
+.galleryListImage {
+  animation-timing-function: ease;
+  width: 82px;
+  height: 63px;
+
+  padding-top: 6.328125%;
+  background-size: cover;
+
+  overflow: hidden;
+  display: inline-block;
+  margin: 2em;
+  &:hover {
+  }
+}
+
+.galleryWrapper {
+  font-size: 0;
+  text-align: center;
+}
+
+@keyframes scale-double {
+  0% {
+    -ms-transform: scale($image_initial_scale, $image_initial_scale);
+    /* IE 9 */
+    -webkit-transform: scale($image_initial_scale, $image_initial_scale);
+    /* Safari */
+    transform: scale($image_initial_scale, $image_initial_scale);
+  }
+  25% {
+    -ms-transform: scale($image_initial_scale * 1.25, $image_initial_scale * 1.25);
+    /* IE 9 */
+    -webkit-transform: scale($image_initial_scale * 1.25, $image_initial_scale * 1.25);
+    /* Safari */
+    transform: scale($image_initial_scale * 1.25, $image_initial_scale * 1.25);
+  }
+  50% {
+    -ms-transform: scale($image_initial_scale * 1.5, $image_initial_scale * 1.5);
+    /* IE 9 */
+    -webkit-transform: scale($image_initial_scale * 1.5, $image_initial_scale * 1.5);
+    /* Safari */
+    transform: scale($image_initial_scale * 1.5, $image_initial_scale * 1.5);
+  }
+  75% {
+    -ms-transform: scale($image_initial_scale * 1.75, $image_initial_scale * 1.75);
+    /* IE 9 */
+    -webkit-transform: scale($image_initial_scale * 1.75, $image_initial_scale * 1.75);
+    /* Safari */
+    transform: scale($image_initial_scale * 1.75, $image_initial_scale * 1.75);
+  }
+  100% {
+    -ms-transform: scale($image_initial_scale * $image_max_scale, $image_initial_scale * $image_max_scale);
+    /* IE 9 */
+    -webkit-transform: scale($image_initial_scale * $image_max_scale, $image_initial_scale * $image_max_scale);
+    /* Safari */
+    transform: scale($image_initial_scale * $image_max_scale, $image_initial_scale * $image_max_scale);
+  }
+}

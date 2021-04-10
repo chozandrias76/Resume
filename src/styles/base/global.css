@@ -1,0 +1,68 @@
+/**
+ * Define global styles for the application,
+ * usually html and body content.
+ */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var($color_pale_sky_approx);
+  font-family: var($font_0, $font_1);
+  color: var($color_spindle_approx);
+  font-size: calc($default-font-size * 0.65);
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+
+  @media screen and (min-width: value($media, s)) {
+    font-size: calc($default-font-size * 0.8);
+  }
+
+  @media screen and (min-width: value($media, m)) {
+    font-size: var($default-font-size);
+  }
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  color: #d82b2b;
+}
+
+h2 {
+  color: #d82b2b;
+}
+
+h3 {
+  color: #b72828;
+}
+
+h5 {
+  color: #ababab;
+}
+
+h6 {
+  color: #222;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: -50%;
+}
+
+p {
+  color: var($color_pearl_bush_approx);
+  font-size: 18px;
+  line-height: 150%;
+}

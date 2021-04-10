@@ -1,0 +1,77 @@
+$default-font-size: 16px;
+
+$color-basic: (
+  brightest: #ffffff,
+  brighter: #f3f3f3,
+  bright: #dadada,
+  normal: null,
+  dark: #9c9c9c,
+  darker: #585858,
+  darkest: #131313
+);
+
+$color-primary: (
+  normal: #00ff00
+);
+
+$time: (
+  slow: 0.5s,
+  normal: 0.35s,
+  fast: 0.15s
+);
+
+$font-weight: (
+  light: 200,
+  semilight: 300,
+  normal: 500,
+  semibold: 600,
+  bold: 700,
+  black: 800
+);
+
+$font-size: (
+  xs: 0.5rem,
+  s: 0.85rem,
+  m: 1rem,
+  l: 1.25rem,
+  xl: 1.5rem
+);
+
+$media: (
+  xxs: 360px,
+  xs: 640px,
+  s: 768px,
+  m: 1024px,
+  l: 1280px,
+  xl: 1440px
+);
+
+$z: (
+  xs: 1,
+  s: 10,
+  m: 20,
+  l: 30,
+  xl: 50,
+  xxl: 100
+);
+
+:root {
+  $white: white;
+  $color_tundora_approx: #444;
+  $black_75: rgba(0, 0, 0, 0.75);
+  $white_85: rgba(255, 255, 255, 0.85);
+  $color_pale_sky_approx: #4a4431;
+  $color_spindle_approx: #b7d5e6;
+  $color_pearl_bush_approx: #ede0d5;
+  $font_0: Helvetica;
+  $font_1: serif;
+  $url_d: url(https://s3-us-west-2.amazonaws.com/web-dev-storage/Non+Projects/cBWDjDX.png);
+  $url_0: url(https://s3-us-west-2.amazonaws.com/web-dev-storage/Non+Projects/0.png);
+  $url_1: url(https://s3-us-west-2.amazonaws.com/web-dev-storage/Non+Projects/1.png);
+  $url_2: url(https://s3-us-west-2.amazonaws.com/web-dev-storage/Non+Projects/2.png);
+  $url_3: url(https://s3-us-west-2.amazonaws.com/web-dev-storage/Non+Projects/3.png);
+  $url_4: url(https://s3-us-west-2.amazonaws.com/web-dev-storage/Non+Projects/4.png);
+  $url_5: url(https://s3-us-west-2.amazonaws.com/web-dev-storage/Non+Projects/5.png);
+  $image_initial_scale: 1;
+  $image_max_scale: 2;
+}
