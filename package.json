@@ -641,7 +641,7 @@
     "uglify-to-browserify": "2.1.0",
     "uid-number": "0.0.6",
     "uncontrollable": "7.2.1",
-    "underscore": "1.12.1",
+    "underscore": "1.13.1",
     "underscore.string": "3.3.5",
     "uniq": "1.0.1",
     "uniqid": "5.3.0",
