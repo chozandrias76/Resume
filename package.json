@@ -618,7 +618,7 @@
     "strip-bom": "4.0.0",
     "strip-indent": "3.0.0",
     "style-loader": "2.0.0",
-    "supports-color": "8.1.1",
+    "supports-color": "9.0.0",
     "svgo": "2.3.0",
     "symbol-tree": "3.2.4",
     "tapable": "2.2.0",
