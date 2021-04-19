@@ -299,7 +299,7 @@
     "generate-function": "2.3.1",
     "generate-object-property": "1.2.0",
     "get-caller-file": "2.0.5",
-    "get-stdin": "8.0.0",
+    "get-stdin": "9.0.0",
     "getpass": "0.1.7",
     "glob": "7.1.6",
     "glob-base": "0.3.0",
