@@ -502,7 +502,7 @@
     "postcss-merge-longhand": "5.0.0",
     "postcss-merge-rules": "5.0.0",
     "postcss-message-helpers": "2.0.0",
-    "postcss-minify-font-values": "4.0.2",
+    "postcss-minify-font-values": "5.0.0",
     "postcss-minify-gradients": "5.0.0",
     "postcss-minify-params": "4.0.2",
     "postcss-minify-selectors": "5.0.0",
