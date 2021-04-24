@@ -498,7 +498,7 @@
     "postcss-discard-overridden": "5.0.0",
     "postcss-discard-unused": "5.0.0",
     "postcss-filter-plugins": "3.0.1",
-    "postcss-merge-idents": "4.0.1",
+    "postcss-merge-idents": "5.0.0",
     "postcss-merge-longhand": "5.0.0",
     "postcss-merge-rules": "5.0.0",
     "postcss-message-helpers": "2.0.0",
