@@ -632,7 +632,7 @@
     "trim-newlines": "4.0.0",
     "tty-browserify": "0.0.1",
     "tunnel-agent": "0.6.0",
-    "tweetnacl": "0.14.5",
+    "tweetnacl": "1.0.3",
     "type-check": "0.4.0",
     "type-is": "1.6.18",
     "typedarray": "0.0.6",
