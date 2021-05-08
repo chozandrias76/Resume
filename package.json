@@ -339,7 +339,7 @@
     "invariant": "2.2.4",
     "invert-kv": "4.0.0",
     "ipaddr.js": "2.0.0",
-    "is-absolute-url": "2.1.0",
+    "is-absolute-url": "3.0.3",
     "is-arrayish": "0.3.2",
     "is-binary-path": "2.1.0",
     "is-buffer": "2.0.5",
