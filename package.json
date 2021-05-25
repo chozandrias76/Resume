@@ -276,7 +276,7 @@
     "extsprintf": "1.4.0",
     "fast-levenshtein": "3.0.0",
     "fastparse": "1.1.2",
-    "faye-websocket": "0.11.3",
+    "faye-websocket": "0.11.4",
     "fb-watchman": "2.0.1",
     "fbjs": "3.0.0",
     "filename-regex": "2.0.1",
