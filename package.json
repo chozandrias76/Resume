@@ -289,7 +289,7 @@
     "for-own": "1.0.0",
     "forever-agent": "0.6.1",
     "form-data": "4.0.0",
-    "forwarded": "0.1.2",
+    "forwarded": "0.2.0",
     "fresh": "0.5.2",
     "fs.realpath": "1.0.0",
     "fstream": "1.0.12",
