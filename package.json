@@ -665,7 +665,7 @@
     "webidl-conversions": "6.1.0",
     "webpack": "5.38.1",
     "webpack-core": "0.6.9",
-    "webpack-dev-middleware": "4.3.0",
+    "webpack-dev-middleware": "5.0.0",
     "webpack-dev-server": "3.11.2",
     "websocket-driver": "0.7.4",
     "websocket-extensions": "0.1.4",
