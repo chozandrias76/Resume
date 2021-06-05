@@ -435,7 +435,7 @@
     "micromatch": "4.0.4",
     "mime": "2.5.2",
     "mime-db": "1.47.0",
-    "mime-types": "2.1.30",
+    "mime-types": "2.1.31",
     "minimatch": "3.0.4",
     "minimist": "1.2.5",
     "mkdirp": "1.0.4",
