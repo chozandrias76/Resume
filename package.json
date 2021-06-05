@@ -238,7 +238,7 @@
     "defined": "1.0.0",
     "delayed-stream": "1.0.0",
     "delegates": "1.0.0",
-    "depd": "1.1.0",
+    "depd": "2.0.0",
     "destroy": "1.0.4",
     "detect-indent": "6.1.0",
     "detective": "5.2.0",
