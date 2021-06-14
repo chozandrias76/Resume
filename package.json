@@ -270,7 +270,7 @@
     "expand-brackets": "4.0.0",
     "expand-range": "2.0.2",
     "express": "4.17.1",
-    "express-ejs-layouts": "2.5.0",
+    "express-ejs-layouts": "2.5.1",
     "extend": "3.0.2",
     "extglob": "3.0.0",
     "extsprintf": "1.4.0",
