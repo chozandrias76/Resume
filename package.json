@@ -617,7 +617,7 @@
     "strip-ansi": "7.0.0",
     "strip-bom": "5.0.0",
     "strip-indent": "4.0.0",
-    "style-loader": "2.0.0",
+    "style-loader": "3.0.0",
     "supports-color": "9.0.1",
     "svgo": "2.3.0",
     "symbol-tree": "3.2.4",
@@ -708,7 +708,7 @@
     "react-addons-test-utils": "15.6.2",
     "react-hot-loader": "4.13.0",
     "sass-loader": "12.1.0",
-    "style-loader": "2.0.0",
+    "style-loader": "3.0.0",
     "webpack-dev-server": "3.11.2"
   },
   "jest": {
