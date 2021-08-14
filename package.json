@@ -626,7 +626,7 @@
     "through": "2.3.8",
     "timers-browserify": "2.0.12",
     "tmpl": "1.0.4",
-    "to-fast-properties": "3.0.1",
+    "to-fast-properties": "4.0.0",
     "tough-cookie": "4.0.0",
     "tr46": "2.1.0",
     "trim-newlines": "4.0.2",
