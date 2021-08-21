@@ -590,7 +590,7 @@
     "set-immediate-shim": "1.0.1",
     "setprototypeof": "1.2.0",
     "sha.js": "2.4.11",
-    "shebang-regex": "3.0.0",
+    "shebang-regex": "4.0.0",
     "sigmund": "1.0.1",
     "signal-exit": "3.0.3",
     "slash": "4.0.0",
