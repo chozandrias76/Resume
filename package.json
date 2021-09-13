@@ -614,7 +614,7 @@
     "string-width": "5.0.0",
     "string_decoder": "1.3.0",
     "stringstream": "1.0.0",
-    "strip-ansi": "7.0.0",
+    "strip-ansi": "7.0.1",
     "strip-bom": "5.0.0",
     "strip-indent": "4.0.0",
     "style-loader": "3.2.1",
