@@ -311,7 +311,7 @@
     "handlebars": "4.7.7",
     "har-validator": "5.1.5",
     "has": "1.0.3",
-    "has-ansi": "5.0.0",
+    "has-ansi": "5.0.1",
     "has-color": "0.2.0",
     "has-flag": "5.0.1",
     "has-unicode": "2.0.1",
