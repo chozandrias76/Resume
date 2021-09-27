@@ -350,7 +350,7 @@
     "is-extglob": "2.1.1",
     "is-finite": "2.0.0",
     "is-fullwidth-code-point": "4.0.0",
-    "is-glob": "4.0.1",
+    "is-glob": "4.0.2",
     "is-my-json-valid": "2.20.5",
     "is-number": "7.0.0",
     "is-plain-obj": "4.0.0",
