@@ -663,7 +663,7 @@
     "watch": "1.0.2",
     "watchpack": "2.2.0",
     "webidl-conversions": "7.0.0",
-    "webpack": "5.59.1",
+    "webpack": "5.60.0",
     "webpack-core": "0.6.9",
     "webpack-dev-middleware": "5.2.1",
     "webpack-dev-server": "4.3.1",
