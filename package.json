@@ -62,7 +62,7 @@
     "assert-plus": "1.0.0",
     "assets-webpack-plugin": "7.1.1",
     "ast-types": "0.14.2",
-    "async": "3.2.1",
+    "async": "3.2.2",
     "async-each": "1.0.3",
     "async-foreach": "0.1.3",
     "autoprefixer": "10.4.0",
