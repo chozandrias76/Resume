@@ -658,7 +658,7 @@
     "vendors": "2.0.1",
     "verror": "1.10.0",
     "vm-browserify": "1.1.2",
-    "walker": "1.0.7",
+    "walker": "1.0.8",
     "warning": "4.0.3",
     "watch": "1.0.2",
     "watchpack": "2.2.0",
