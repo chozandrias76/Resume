@@ -619,7 +619,7 @@
     "strip-indent": "4.0.0",
     "style-loader": "3.3.1",
     "supports-color": "9.0.2",
-    "svgo": "2.7.0",
+    "svgo": "2.8.0",
     "symbol-tree": "3.2.4",
     "tapable": "2.2.1",
     "tar": "6.1.11",
