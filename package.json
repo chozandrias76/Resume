@@ -656,7 +656,7 @@
     "validate-npm-package-license": "3.0.4",
     "vary": "1.1.2",
     "vendors": "2.0.1",
-    "verror": "1.10.0",
+    "verror": "1.10.1",
     "vm-browserify": "1.1.2",
     "walker": "1.0.8",
     "warning": "4.0.3",
