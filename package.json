@@ -511,7 +511,7 @@
     "postcss-modules-scope": "3.0.0",
     "postcss-modules-values": "4.0.0",
     "postcss-normalize-charset": "5.0.1",
-    "postcss-normalize-url": "5.0.2",
+    "postcss-normalize-url": "5.0.3",
     "postcss-ordered-values": "5.0.2",
     "postcss-reduce-idents": "5.0.1",
     "postcss-reduce-initial": "5.0.1",
