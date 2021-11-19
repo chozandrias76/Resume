@@ -702,7 +702,7 @@
     "eslint-config-airbnb": "18.2.1",
     "eslint-plugin-import": "2.25.3",
     "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-react": "7.27.0",
+    "eslint-plugin-react": "7.27.1",
     "jest-cli": "27.3.1",
     "node-sass": "6.0.1",
     "react-addons-test-utils": "15.6.2",
