@@ -172,7 +172,7 @@
     "buffer": "6.0.3",
     "buffer-shims": "1.0.0",
     "builtin-modules": "3.2.0",
-    "bytes": "3.1.0",
+    "bytes": "3.1.1",
     "camelcase": "6.2.1",
     "camelcase-keys": "7.0.1",
     "caniuse-db": "1.0.30001283",
