@@ -520,7 +520,7 @@
     "postcss-selector-parser": "6.0.6",
     "postcss-svgo": "5.0.3",
     "postcss-unique-selectors": "5.0.2",
-    "postcss-value-parser": "4.1.0",
+    "postcss-value-parser": "4.2.0",
     "postcss-zindex": "5.0.1",
     "prelude-ls": "1.2.1",
     "prepend-http": "4.0.0",
