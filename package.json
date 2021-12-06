@@ -661,7 +661,7 @@
     "walker": "1.0.8",
     "warning": "4.0.3",
     "watch": "1.0.2",
-    "watchpack": "2.3.0",
+    "watchpack": "2.3.1",
     "webidl-conversions": "7.0.0",
     "webpack": "5.64.4",
     "webpack-core": "0.6.9",
