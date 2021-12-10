@@ -566,7 +566,7 @@
     "regex-cache": "0.4.4",
     "regexpu-core": "4.8.0",
     "regjsgen": "0.6.0",
-    "regjsparser": "0.8.0",
+    "regjsparser": "0.8.1",
     "repeat-element": "1.1.4",
     "repeat-string": "1.6.1",
     "repeating": "4.0.0",
