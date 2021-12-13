@@ -206,7 +206,7 @@
     "console-browserify": "1.2.0",
     "console-control-strings": "1.1.0",
     "constants-browserify": "1.0.0",
-    "content-disposition": "0.5.3",
+    "content-disposition": "0.5.4",
     "content-type": "1.0.4",
     "convert-source-map": "1.8.0",
     "cookie": "0.4.1",
