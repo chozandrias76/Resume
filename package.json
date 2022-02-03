@@ -209,7 +209,7 @@
     "content-disposition": "0.5.4",
     "content-type": "1.0.4",
     "convert-source-map": "1.8.0",
-    "cookie": "0.4.1",
+    "cookie": "0.4.2",
     "cookie-signature": "1.1.0",
     "core-js": "3.21.0",
     "core-util-is": "1.0.3",
