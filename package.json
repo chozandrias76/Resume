@@ -489,7 +489,7 @@
     "pinkie": "2.0.4",
     "pinkie-promise": "2.0.1",
     "postcss": "8.4.6",
-    "postcss-calc": "8.2.3",
+    "postcss-calc": "8.2.4",
     "postcss-colormin": "5.2.4",
     "postcss-convert-values": "5.0.3",
     "postcss-discard-comments": "5.0.2",
