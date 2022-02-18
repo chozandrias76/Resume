@@ -210,7 +210,7 @@
     "content-type": "1.0.4",
     "convert-source-map": "1.8.0",
     "cookie": "0.4.2",
-    "cookie-signature": "1.1.0",
+    "cookie-signature": "1.2.0",
     "core-js": "3.21.1",
     "core-util-is": "1.0.3",
     "cover": "0.2.9",
