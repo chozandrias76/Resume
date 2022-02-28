@@ -596,7 +596,7 @@
     "slash": "4.0.0",
     "sntp": "3.0.2",
     "sockjs": "0.3.24",
-    "sockjs-client": "1.5.2",
+    "sockjs-client": "1.6.0",
     "sort-keys": "5.0.0",
     "source-list-map": "2.0.1",
     "source-map": "0.7.3",
