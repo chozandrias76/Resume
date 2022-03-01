@@ -553,7 +553,7 @@
     "react-prop-types": "0.4.0",
     "react-router": "6.2.2",
     "read-pkg": "7.1.0",
-    "read-pkg-up": "9.0.0",
+    "read-pkg-up": "9.1.0",
     "readable-stream": "3.6.0",
     "readdirp": "3.6.0",
     "recast": "0.20.5",
