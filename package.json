@@ -513,7 +513,7 @@
     "postcss-normalize-charset": "5.0.3",
     "postcss-normalize-url": "5.1.0",
     "postcss-ordered-values": "5.0.5",
-    "postcss-reduce-idents": "5.0.3",
+    "postcss-reduce-idents": "5.1.0",
     "postcss-reduce-initial": "5.0.3",
     "postcss-reduce-transforms": "5.0.4",
     "postcss-safe-parser": "6.0.0",
