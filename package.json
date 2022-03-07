@@ -494,7 +494,7 @@
     "postcss-convert-values": "5.1.0",
     "postcss-discard-comments": "5.0.3",
     "postcss-discard-duplicates": "5.1.0",
-    "postcss-discard-empty": "5.0.3",
+    "postcss-discard-empty": "5.1.0",
     "postcss-discard-overridden": "5.0.4",
     "postcss-discard-unused": "5.1.0",
     "postcss-filter-plugins": "3.0.1",
