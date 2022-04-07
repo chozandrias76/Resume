@@ -583,7 +583,7 @@
     "sass-loader": "12.6.0",
     "sax": "1.2.4",
     "semver": "7.3.6",
-    "send": "0.17.2",
+    "send": "0.18.0",
     "serve-index": "1.9.1",
     "serve-static": "1.15.0",
     "set-blocking": "2.0.0",
