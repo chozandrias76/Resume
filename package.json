@@ -449,7 +449,7 @@
     "node-sass": "7.0.1",
     "node-uuid": "1.4.8",
     "nopt": "6.0.0",
-    "normalize-package-data": "4.0.0",
+    "normalize-package-data": "4.0.1",
     "normalize-path": "3.0.0",
     "normalize-range": "0.1.2",
     "normalize-url": "7.0.3",
