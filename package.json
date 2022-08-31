@@ -528,7 +528,7 @@
     "private": "0.1.8",
     "process": "0.11.10",
     "process-nextick-args": "2.0.1",
-    "promise": "8.1.0",
+    "promise": "8.2.0",
     "proto-list": "1.2.4",
     "proxy-addr": "2.0.7",
     "prr": "1.0.1",
