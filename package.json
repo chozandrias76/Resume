@@ -579,7 +579,7 @@
     "rimraf": "3.0.2",
     "ripemd160": "2.0.2",
     "sane": "5.0.1",
-    "sass-graph": "4.0.0",
+    "sass-graph": "4.0.1",
     "sass-loader": "13.0.2",
     "sax": "1.2.4",
     "semver": "7.3.7",
