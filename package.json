@@ -485,7 +485,7 @@
     "path-to-regexp": "6.2.1",
     "path-type": "5.0.0",
     "pbkdf2-compat": "4.0.0",
-    "pify": "6.0.0",
+    "pify": "6.1.0",
     "pinkie": "2.0.4",
     "pinkie-promise": "2.0.1",
     "postcss": "8.4.16",
