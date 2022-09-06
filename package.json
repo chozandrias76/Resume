@@ -652,7 +652,7 @@
     "util": "0.12.4",
     "util-deprecate": "1.0.2",
     "utils-merge": "1.0.1",
-    "uuid": "8.3.2",
+    "uuid": "9.0.0",
     "validate-npm-package-license": "3.0.4",
     "vary": "1.1.2",
     "vendors": "2.0.1",
