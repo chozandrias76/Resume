@@ -240,7 +240,7 @@
     "delegates": "1.0.0",
     "depd": "2.0.0",
     "destroy": "1.2.0",
-    "detect-indent": "7.0.0",
+    "detect-indent": "7.0.1",
     "detective": "5.2.1",
     "diff": "5.1.0",
     "dom-helpers": "5.2.1",
