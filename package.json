@@ -235,7 +235,7 @@
     "debug": "4.3.4",
     "decamelize": "6.0.0",
     "deep-is": "0.1.4",
-    "defined": "1.0.0",
+    "defined": "1.0.1",
     "delayed-stream": "1.0.0",
     "delegates": "1.0.0",
     "depd": "2.0.0",
