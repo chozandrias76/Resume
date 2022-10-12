@@ -379,7 +379,7 @@
     "json-stringify-safe": "5.0.1",
     "json3": "3.3.3",
     "json5": "2.2.1",
-    "jsonify": "0.0.0",
+    "jsonify": "0.0.1",
     "jsonpointer": "5.0.1",
     "jsprim": "2.0.2",
     "jstransform": "11.0.3",
