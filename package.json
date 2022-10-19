@@ -160,7 +160,7 @@
     "bcrypt-pbkdf": "1.0.2",
     "big.js": "6.2.1",
     "binary-extensions": "2.2.0",
-    "bl": "5.1.0",
+    "bl": "6.0.0",
     "block-stream": "0.0.9",
     "boom": "7.3.0",
     "bootstrap": "5.2.2",
