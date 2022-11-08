@@ -473,7 +473,7 @@
     "os-shim": "0.1.3",
     "os-tmpdir": "2.0.0",
     "osenv": "0.1.5",
-    "pako": "2.0.4",
+    "pako": "2.1.0",
     "parse-glob": "3.0.4",
     "parse-json": "6.0.2",
     "parse5": "7.1.1",
