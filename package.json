@@ -372,7 +372,7 @@
     "js-tokens": "8.0.0",
     "js-yaml": "4.1.0",
     "jsbn": "1.1.0",
-    "jsdom": "20.0.2",
+    "jsdom": "20.0.3",
     "jsesc": "3.0.2",
     "json-schema": "0.4.0",
     "json-stable-stringify": "1.0.2",
