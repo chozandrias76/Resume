@@ -562,7 +562,7 @@
     "reduce-function-call": "1.0.3",
     "regenerate": "1.4.2",
     "regenerator-runtime": "0.13.11",
-    "regenerator-transform": "0.15.0",
+    "regenerator-transform": "0.15.1",
     "regex-cache": "0.4.4",
     "regexpu-core": "5.2.2",
     "regjsgen": "0.7.1",
