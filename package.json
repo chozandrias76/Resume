@@ -666,7 +666,7 @@
     "webpack": "5.76.1",
     "webpack-core": "0.6.9",
     "webpack-dev-middleware": "6.0.1",
-    "webpack-dev-server": "4.11.1",
+    "webpack-dev-server": "4.12.0",
     "websocket-driver": "0.7.4",
     "websocket-extensions": "0.1.4",
     "whatwg-fetch": "3.6.2",
@@ -709,7 +709,7 @@
     "react-hot-loader": "4.13.1",
     "sass-loader": "13.2.0",
     "style-loader": "3.3.2",
-    "webpack-dev-server": "4.11.1"
+    "webpack-dev-server": "4.12.0"
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
