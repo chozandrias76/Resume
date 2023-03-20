@@ -421,7 +421,7 @@
     "longest": "2.0.1",
     "loose-envify": "1.4.0",
     "loud-rejection": "2.2.0",
-    "lru-cache": "8.0.3",
+    "lru-cache": "8.0.4",
     "macaddress": "0.5.3",
     "makeerror": "1.0.12",
     "map-obj": "5.0.2",
