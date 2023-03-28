@@ -496,7 +496,7 @@
     "postcss-discard-duplicates": "5.1.0",
     "postcss-discard-empty": "5.1.1",
     "postcss-discard-overridden": "5.1.0",
-    "postcss-discard-unused": "5.1.0",
+    "postcss-discard-unused": "6.0.0",
     "postcss-filter-plugins": "3.0.1",
     "postcss-merge-idents": "5.1.1",
     "postcss-merge-longhand": "5.1.7",
