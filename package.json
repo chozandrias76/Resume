@@ -515,7 +515,7 @@
     "postcss-ordered-values": "5.1.3",
     "postcss-reduce-idents": "5.2.0",
     "postcss-reduce-initial": "5.1.2",
-    "postcss-reduce-transforms": "5.1.0",
+    "postcss-reduce-transforms": "6.0.0",
     "postcss-safe-parser": "6.0.0",
     "postcss-selector-parser": "6.0.11",
     "postcss-svgo": "5.1.0",
