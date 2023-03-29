@@ -500,7 +500,7 @@
     "postcss-filter-plugins": "3.0.1",
     "postcss-merge-idents": "5.1.1",
     "postcss-merge-longhand": "6.0.0",
-    "postcss-merge-rules": "5.1.4",
+    "postcss-merge-rules": "6.0.0",
     "postcss-message-helpers": "2.0.0",
     "postcss-minify-font-values": "5.1.0",
     "postcss-minify-gradients": "5.1.1",
