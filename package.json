@@ -436,7 +436,7 @@
     "mime": "3.0.0",
     "mime-db": "1.52.0",
     "mime-types": "2.1.35",
-    "minimatch": "8.0.3",
+    "minimatch": "9.0.0",
     "minimist": "1.2.8",
     "mkdirp": "2.1.6",
     "ms": "2.1.3",
