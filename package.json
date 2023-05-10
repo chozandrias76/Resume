@@ -301,7 +301,7 @@
     "get-caller-file": "2.0.5",
     "get-stdin": "9.0.0",
     "getpass": "0.1.7",
-    "glob": "10.2.2",
+    "glob": "10.2.3",
     "glob-base": "0.3.0",
     "glob-parent": "6.0.2",
     "globals": "13.20.0",
