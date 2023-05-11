@@ -592,7 +592,7 @@
     "sha.js": "2.4.11",
     "shebang-regex": "4.0.0",
     "sigmund": "1.0.1",
-    "signal-exit": "4.0.1",
+    "signal-exit": "4.0.2",
     "slash": "5.1.0",
     "sntp": "3.0.2",
     "sockjs": "0.3.24",
