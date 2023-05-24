@@ -507,7 +507,7 @@
     "postcss-minify-params": "5.1.4",
     "postcss-minify-selectors": "5.2.1",
     "postcss-modules-extract-imports": "3.0.0",
-    "postcss-modules-local-by-default": "4.0.2",
+    "postcss-modules-local-by-default": "4.0.3",
     "postcss-modules-scope": "3.0.0",
     "postcss-modules-values": "4.0.0",
     "postcss-normalize-charset": "5.1.0",
