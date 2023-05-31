@@ -338,7 +338,7 @@
     "interpret": "3.1.1",
     "invariant": "2.2.4",
     "invert-kv": "4.2.0",
-    "ipaddr.js": "2.0.1",
+    "ipaddr.js": "2.1.0",
     "is-absolute-url": "4.0.1",
     "is-arrayish": "0.3.2",
     "is-binary-path": "2.1.0",
