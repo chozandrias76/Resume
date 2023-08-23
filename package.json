@@ -552,7 +552,7 @@
     "react-overlays": "5.2.1",
     "react-prop-types": "0.4.0",
     "react-router": "6.15.0",
-    "read-pkg": "8.0.0",
+    "read-pkg": "8.1.0",
     "read-pkg-up": "10.0.0",
     "readable-stream": "4.4.2",
     "readdirp": "3.6.0",
