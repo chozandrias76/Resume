@@ -499,7 +499,7 @@
     "postcss-discard-unused": "6.0.0",
     "postcss-filter-plugins": "3.0.1",
     "postcss-merge-idents": "6.0.1",
-    "postcss-merge-longhand": "6.0.0",
+    "postcss-merge-longhand": "6.0.1",
     "postcss-merge-rules": "6.0.2",
     "postcss-message-helpers": "2.0.0",
     "postcss-minify-font-values": "6.0.1",
