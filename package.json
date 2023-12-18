@@ -433,7 +433,7 @@
     "merge-descriptors": "2.0.0",
     "methods": "1.1.2",
     "micromatch": "4.0.5",
-    "mime": "4.0.0",
+    "mime": "4.0.1",
     "mime-db": "1.52.0",
     "mime-types": "2.1.35",
     "minimatch": "9.0.3",
