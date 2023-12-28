@@ -554,7 +554,7 @@
     "react-router": "6.21.1",
     "read-pkg": "9.0.1",
     "read-pkg-up": "11.0.0",
-    "readable-stream": "4.5.1",
+    "readable-stream": "4.5.2",
     "readdirp": "3.6.0",
     "recast": "0.23.4",
     "redent": "4.0.0",
