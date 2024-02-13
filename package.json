@@ -242,7 +242,7 @@
     "destroy": "1.2.0",
     "detect-indent": "7.0.1",
     "detective": "5.2.1",
-    "diff": "5.1.0",
+    "diff": "5.2.0",
     "dom-helpers": "5.2.1",
     "domain-browser": "5.7.0",
     "ecc-jsbn": "0.2.0",
