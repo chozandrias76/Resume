@@ -503,7 +503,7 @@
     "postcss-merge-rules": "6.0.4",
     "postcss-message-helpers": "2.0.0",
     "postcss-minify-font-values": "6.0.2",
-    "postcss-minify-gradients": "6.0.1",
+    "postcss-minify-gradients": "6.0.2",
     "postcss-minify-params": "6.0.3",
     "postcss-minify-selectors": "6.0.2",
     "postcss-modules-extract-imports": "3.0.0",
