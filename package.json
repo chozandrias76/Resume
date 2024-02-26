@@ -514,7 +514,7 @@
     "postcss-normalize-url": "6.0.1",
     "postcss-ordered-values": "6.0.1",
     "postcss-reduce-idents": "6.0.2",
-    "postcss-reduce-initial": "6.0.2",
+    "postcss-reduce-initial": "6.0.3",
     "postcss-reduce-transforms": "6.0.1",
     "postcss-safe-parser": "7.0.0",
     "postcss-selector-parser": "6.0.15",
