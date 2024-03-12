@@ -587,7 +587,7 @@
     "serve-index": "1.9.1",
     "serve-static": "1.15.0",
     "set-blocking": "2.0.0",
-    "set-immediate-shim": "2.0.0",
+    "set-immediate-shim": "3.1.0",
     "setprototypeof": "1.2.0",
     "sha.js": "2.4.11",
     "shebang-regex": "4.0.0",
