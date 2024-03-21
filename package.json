@@ -65,7 +65,7 @@
     "async": "3.2.5",
     "async-each": "1.0.6",
     "async-foreach": "0.1.3",
-    "autoprefixer": "10.4.17",
+    "autoprefixer": "10.4.19",
     "autoprefixer-loader": "3.2.0",
     "aws-sign2": "0.7.0",
     "babel-code-frame": "6.26.0",
